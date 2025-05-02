@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 禁用浅克隆，获取完整历史记录
 
     - name: Configure Git
       run: |
@@ -24,4 +26,5 @@ jobs:
 
     - name: Force push to GitCode
       run: |
+        git fetch gitcode  # 获取远程仓库最新状态
         git push --force gitcode HEAD:main
