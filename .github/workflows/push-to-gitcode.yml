@@ -1,9 +1,7 @@
 name: Push custom.xaml to GitCode
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   push-to-gitcode:
