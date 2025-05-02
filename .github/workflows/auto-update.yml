@@ -1,0 +1,122 @@
+name: XAML Auto Generator
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-xaml:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Generate configuration
+      env:
+        DATA_MAPPING: |
+          {
+            "AllStatusPriorityLow": "https://raw.githubusercontent.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/refs/heads/main/data/___%E4%BD%8E.md",
+            "AllStatusPriorityMedium": "https://raw.githubusercontent.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/refs/heads/main/data/___%E4%B8%AD.md",
+            "AllStatusPriorityHigh": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E9%AB%98.md",
+            "AllStatusPriorityCritical": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E6%9E%81%E9%AB%98.md",
+            "AllStatusBugCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__Bug.md",
+            "AllStatusOptimizationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E4%BC%98%E5%8C%96.md",
+            "AllStatusFeatureCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E6%96%B0%E5%8A%9F%E8%83%BD.md",
+            "AllStatusExperimentalCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E5%B0%9D%E9%B2%9C%E7%89%B9%E6%80%A7.md",
+            "AllStatusThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AC%AC%E4%B8%89%E6%96%B9.md",
+            "AllStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85.md",
+            "AllStatusCommunityHelpCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%B8%AE%E5%8A%A9.md",
+            "AllStatusCommunityReproductionCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%A4%8D%E7%8E%B0.md",
+            "OpenStatusPriorityLow": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E4%BD%8Eopen.md",
+            "OpenStatusPriorityMedium": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E4%B8%ADopen.md",
+            "OpenStatusPriorityHigh": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E9%AB%98open.md",
+            "OpenStatusPriorityCritical": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E6%9E%81%E9%AB%98open.md",
+            "OpenStatusBugCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__Bugopen.md",
+            "OpenStatusOptimizationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E4%BC%98%E5%8C%96open.md",
+            "OpenStatusFeatureCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E6%96%B0%E5%8A%9F%E8%83%BDopen.md",
+            "OpenStatusInProgressCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%A4%84%E7%90%86%E4%B8%AD.md",
+            "OpenStatusAwaitingConfirmationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AD%89%E5%BE%85%E7%A1%AE%E8%AE%A4.md",
+            "OpenStatusMergeReadyCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%8F%AF%E5%90%88%E5%B9%B6.md",
+            "OpenStatusCommunityInProgressCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%A4%BE%E5%8C%BA%E5%A4%84%E7%90%86%E4%B8%AD.md",
+            "OpenStatusBlockedCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%8F%97%E9%98%BB%E7%A2%8D.md",
+            "OpenStatusVotingCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%8A%95%E7%A5%A8%E4%B8%AD.md",
+            "OpenStatusNewSubmissionCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%96%B0%E6%8F%90%E4%BA%A4.md",
+            "ClosedStatusPriorityLow": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E4%BD%8Eclosed.md",
+            "ClosedStatusPriorityMedium": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E4%B8%ADclosed.md",
+            "ClosedStatusPriorityHigh": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E9%AB%98closed.md",
+            "ClosedStatusPriorityCritical": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E6%9E%81%E9%AB%98closed.md",
+            "ClosedStatusBugCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__Bugclosed.md",
+            "ClosedStatusOptimizationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E4%BC%98%E5%8C%96closed.md",
+            "ClosedStatusFeatureCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E6%96%B0%E5%8A%9F%E8%83%BDclosed.md",
+            "ClosedStatusCompletedCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%AE%8C%E6%88%90.md",
+            "ClosedStatusRejectedCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%8B%92%E7%BB%9D___%E6%94%BE%E5%BC%83.md",
+            "ClosedStatusDuplicateCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%87%8D%E5%A4%8D.md",
+            "ClosedStatusIgnoredCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%BF%BD%E7%95%A5.md",
+            "ClosedStatusCommunityHelpCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%B8%AE%E5%8A%A9closed.md",
+            "ClosedStatusCommunityReproductionCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%A4%8D%E7%8E%B0closed.md"
+          }
+      run: |
+        echo "$DATA_MAPPING" > data_mapping.json
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests tqdm
+
+    - name: Generate XAML
+      run: |
+        cat << 'EOF' > xaml_generator.py
+        import json
+        import os
+        import requests
+        from pathlib import Path
+        from tqdm import tqdm
+
+        def load_template():
+            return Path("template.xaml").read_text(encoding="utf-8")
+
+        def fetch_data(url):
+            try:
+                response = requests.get(url, timeout=10)
+                response.raise_for_status()
+                return response.text.strip()
+            except Exception as e:
+                return "0"
+
+        def main():
+            with open("data_mapping.json") as f:
+                mappings = json.load(f)
+            data = {}
+            for key, url in tqdm(mappings.items(), desc="Downloading"):
+                data[key] = fetch_data(url)
+            template = load_template()
+            for key, value in data.items():
+                template = template.replace(f"{{{{{key}}}}}", value)
+            Path("custom.xaml").write_text(template, encoding="utf-8")
+
+        if __name__ == "__main__":
+            main()
+        EOF
+
+        python xaml_generator.py
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "PCL-Community-Bot"
+        git config --global user.email "167983016+PCL-Community-Bot@users.noreply.github.com"
+        if git diff --quiet custom.xaml; then
+          exit 0
+        else
+          git add custom.xaml
+          git commit -m "Auto-update XAML data"
+          git push "https://${{ secrets.BOT }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref }}
+        fi
