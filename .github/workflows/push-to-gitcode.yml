@@ -1,0 +1,29 @@
+name: Push custom.xaml to GitCode
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'custom.xaml'
+
+jobs:
+  push-to-gitcode:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "deepdarkforest@sohu.com"
+        git config --global user.name "Deep-Dark-Forest"
+
+    - name: Add GitCode remote
+      run: |
+        git remote add gitcode https://Deep-Dark-Forest:${{ secrets.GITCODE }}@gitcode.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage.git
+
+    - name: Force push to GitCode
+      run: |
+        git push --force gitcode HEAD:main
