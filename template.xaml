@@ -13,25 +13,25 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级低" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级低" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusPriorityLow}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级中" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusPriorityMedium}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级高" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusPriorityHigh}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级极高" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级极高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusPriorityCritical}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -43,19 +43,19 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="Bug" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="Bug" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusBugCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优化" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优化" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusOptimizationCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="新功能" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="新功能" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusFeatureCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -67,31 +67,31 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="尝鲜特性" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="尝鲜特性" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusExperimentalCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="第三方" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="第三方" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusThirdPartyCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="等待提交者" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="等待提交者" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusAwaitingSubmitterCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="需要社区帮助" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="需要社区帮助" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusCommunityHelpCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="需要社区复现" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="需要社区复现" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{AllStatusCommunityReproductionCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -107,25 +107,25 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级低" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级低" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusPriorityLow}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级中" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusPriorityMedium}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级高" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusPriorityHigh}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级极高" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级极高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusPriorityCritical}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -137,19 +137,19 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="Bug" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="Bug" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusBugCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优化" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优化" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusOptimizationCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="新功能" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="新功能" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusFeatureCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -161,43 +161,43 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="处理中" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="处理中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusInProgressCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="等待确认" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="等待确认" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusAwaitingConfirmationCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="可合并" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="可合并" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusMergeReadyCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="社区处理中" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="社区处理中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusCommunityInProgressCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="受阻碍" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="受阻碍" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusBlockedCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="投票中" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="投票中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusVotingCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="新提交" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="新提交" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{OpenStatusNewSubmissionCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -213,25 +213,25 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级低" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级低" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusPriorityLow}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级中" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusPriorityMedium}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级高" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusPriorityHigh}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级极高" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优先级极高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusPriorityCritical}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -243,19 +243,19 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="Bug" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="Bug" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusBugCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优化" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="优化" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusOptimizationCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="新功能" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="新功能" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusFeatureCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -267,7 +267,7 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="完成" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="完成" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusCompletedCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -279,19 +279,19 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="拒绝/放弃" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="拒绝/放弃" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusRejectedCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="重复" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="重复" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusDuplicateCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="忽略" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="忽略" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusIgnoredCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
@@ -303,13 +303,13 @@
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="需要社区帮助" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="需要社区帮助" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusCommunityHelpCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="需要社区复现" FontSize="11" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
+                        <TextBlock Text="需要社区复现" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
                         <TextBlock Text="{{ClosedStatusCommunityReproductionCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Border>
