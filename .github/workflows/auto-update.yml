@@ -74,39 +74,6 @@ jobs:
 
     - name: Generate XAML
       run: |
-        cat << 'EOF' > xaml_generator.py
-        import json
-        import os
-        import requests
-        from pathlib import Path
-        from tqdm import tqdm
-
-        def load_template():
-            return Path("template.xaml").read_text(encoding="utf-8")
-
-        def fetch_data(url):
-            try:
-                response = requests.get(url, timeout=10)
-                response.raise_for_status()
-                return response.text.strip()
-            except Exception as e:
-                return "0"
-
-        def main():
-            with open("data_mapping.json") as f:
-                mappings = json.load(f)
-            data = {}
-            for key, url in tqdm(mappings.items(), desc="Downloading"):
-                data[key] = fetch_data(url)
-            template = load_template()
-            for key, value in data.items():
-                template = template.replace(f"{{{{{key}}}}}", value)
-            Path("custom.xaml").write_text(template, encoding="utf-8")
-
-        if __name__ == "__main__":
-            main()
-        EOF
-
         python xaml_generator.py
 
     - name: Commit changes
@@ -114,7 +81,7 @@ jobs:
         git config --global user.name "PCL-Community-Bot"
         git config --global user.email "167983016+PCL-Community-Bot@users.noreply.github.com"
         if git diff --quiet custom.xaml; then
-          exit 0
+          echo "No changes detected"
         else
           git add custom.xaml
           git commit -m "Auto-update XAML data"
