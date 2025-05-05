@@ -318,7 +318,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="操作面板" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+<local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,20,23,20" Orientation="Horizontal" HorizontalAlignment="Center">
         <local:MyButton 
             Margin="0,0,10,0" 
