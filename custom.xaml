@@ -9,7 +9,7 @@
         <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
         
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="优先级" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -39,7 +39,7 @@
         </StackPanel>
 
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -63,7 +63,7 @@
         </StackPanel>
 
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -103,7 +103,7 @@
 <local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="优先级" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -133,7 +133,7 @@
         </StackPanel>
 
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -157,7 +157,7 @@
         </StackPanel>
 
         <StackPanel>
-            <TextBlock Text="进行中" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -209,7 +209,7 @@
 <local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="优先级" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -239,7 +239,7 @@
         </StackPanel>
 
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -263,7 +263,7 @@
         </StackPanel>
 
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="完成" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -275,7 +275,7 @@
         </StackPanel>
 
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="无效" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -299,7 +299,7 @@
         </StackPanel>
 
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
                     <StackPanel VerticalAlignment="Center">
@@ -318,25 +318,27 @@
     </StackPanel>
 </local:MyCard>
 
-<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
-    <local:MyButton 
-        Margin="0,0,10,0" 
-        Width="180" 
-        Height="35" 
-        Padding="15,0,15,0"
-        ColorType="Highlight"
-        Text="刷新" 
-        EventType="刷新主页"
-        ToolTip="从云端获取最新数据（不要频繁点击）"
-    />
-    <local:MyButton 
-        Margin="0,0,10,0" 
-        Width="180" 
-        Height="35" 
-        Padding="15,0,15,0"
-        Text="GitHub 仓库" 
-        EventType="打开网页" 
-        EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
-        ToolTip="访问本主页的 GitHub 仓库"
-    />
-</StackPanel>
+<local:MyCard Title="操作面板" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
+    <StackPanel Margin="25,20,23,20" Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton 
+            Margin="0,0,10,0" 
+            Width="180" 
+            Height="35" 
+            Padding="15,0,15,0"
+            ColorType="Highlight"
+            Text="刷新" 
+            EventType="刷新主页"
+            ToolTip="从云端获取最新数据（不要频繁点击）"
+        />
+        <local:MyButton 
+            Margin="0,0,10,0" 
+            Width="180" 
+            Height="35" 
+            Padding="15,0,15,0"
+            Text="GitHub 仓库" 
+            EventType="打开网页" 
+            EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
+            ToolTip="访问本主页的 GitHub 仓库"
+        />
+    </StackPanel>
+</local:MyCard>
