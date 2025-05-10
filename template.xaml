@@ -1,5 +1,5 @@
 <StackPanel.Resources>
-        <Style TargetType="GroupBox">
+    <Style TargetType="GroupBox">
         <Setter Property="Margin" Value="5" />
         <Setter Property="MinWidth" Value="80" />
         <Setter Property="MinHeight" Value="60" />
