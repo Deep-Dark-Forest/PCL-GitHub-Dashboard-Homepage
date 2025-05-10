@@ -1,3 +1,27 @@
+<StackPanel.Resources>
+        <Style TargetType="GroupBox">
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="MinWidth" Value="80" />
+        <Setter Property="MinHeight" Value="60" />
+        <Setter Property="BorderBrush" Value="{DynamicResource ColorBrush4}" />
+        <Setter Property="HeaderTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" FontSize="12" Foreground="#CC000000" />
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ContentTemplate">
+            <Setter.Value>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" FontSize="22" FontWeight="SemiBold"
+                               Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </DataTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</StackPanel.Resources>
+
 <local:MyHint 
     Text="此主页由 @Deep-Dark-Forest 开发与维护。" 
     IsWarn="False" 
@@ -8,100 +32,30 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级低" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusPriorityLow}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusPriorityMedium}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusPriorityHigh}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优先级极高" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusPriorityCritical}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
+                <GroupBox Header="优先级低" Content="{{OpenStatusPriorityLow}}" />
+                <GroupBox Header="优先级中" Content="{{OpenStatusPriorityMedium}}" />
+                <GroupBox Header="优先级高" Content="{{OpenStatusPriorityHigh}}" />
+                <GroupBox Header="优先级极高" Content="{{OpenStatusPriorityCritical}}" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="Bug" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusBugCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="优化" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusOptimizationCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="新功能" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusFeatureCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
+                <GroupBox Header="Bug" Content="{{OpenStatusBugCount}}" />
+                <GroupBox Header="优化" Content="{{OpenStatusOptimizationCount}}" />
+                <GroupBox Header="新功能" Content="{{OpenStatusFeatureCount}}" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="处理中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusInProgressCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="等待确认" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusAwaitingConfirmationCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="可合并" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusMergeReadyCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="社区处理中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusCommunityInProgressCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="受阻碍" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusBlockedCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="投票中" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusVotingCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
-                <Border Margin="5" Background="Transparent" BorderBrush="{DynamicResource ColorBrush4}" BorderThickness="1" CornerRadius="4" Padding="8" Width="90" Height="70">
-                    <StackPanel VerticalAlignment="Center">
-                        <TextBlock Text="新提交" FontSize="12" Foreground="#CC000000" HorizontalAlignment="Left" Margin="0,0,0,6"/>
-                        <TextBlock Text="{{OpenStatusNewSubmissionCount}}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center"/>
-                    </StackPanel>
-                </Border>
+                <GroupBox Header="处理中" Content="{{OpenStatusInProgressCount}}" />
+                <GroupBox Header="等待确认" Content="{{OpenStatusAwaitingConfirmationCount}}" />
+                <GroupBox Header="可合并" Content="{{OpenStatusMergeReadyCount}}" />
+                <GroupBox Header="社区处理中" Content="{{OpenStatusCommunityInProgressCount}}" />
+                <GroupBox Header="受阻碍" Content="{{OpenStatusBlockedCount}}" />
+                <GroupBox Header="投票中" Content="{{OpenStatusVotingCount}}" />
+                <GroupBox Header="新提交" Content="{{OpenStatusNewSubmissionCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
