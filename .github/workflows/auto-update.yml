@@ -31,6 +31,7 @@ jobs:
             "AllStatusBugCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__Bug.md",
             "AllStatusOptimizationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E4%BC%98%E5%8C%96.md",
             "AllStatusFeatureCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E6%96%B0%E5%8A%9F%E8%83%BD.md",
+            "AllStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%9A%82%E6%97%A0%E8%AE%A1%E5%88%92.md",
             "AllStatusExperimentalCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E5%B0%9D%E9%B2%9C%E7%89%B9%E6%80%A7.md",
             "AllStatusThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AC%AC%E4%B8%89%E6%96%B9.md",
             "AllStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85.md",
@@ -50,6 +51,12 @@ jobs:
             "OpenStatusBlockedCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%8F%97%E9%98%BB%E7%A2%8D.md",
             "OpenStatusVotingCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%8A%95%E7%A5%A8%E4%B8%AD.md",
             "OpenStatusNewSubmissionCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%96%B0%E6%8F%90%E4%BA%A4.md",
+            "OpenStatusBlockerCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/___%E9%98%BB%E7%A2%8D%E8%80%85.md",
+            "OpenStatusNoPlanCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%9A%82%E6%97%A0%E8%AE%A1%E5%88%92open.md",
+            "OpenStatusThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AC%AC%E4%B8%89%E6%96%B9open.md",
+            "OpenStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85open.md",
+            "OpenStatusCommunityHelpCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%B8%AE%E5%8A%A9open.md",
+            "OpenStatusCommunityReproductionCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%A4%8D%E7%8E%B0open.md",
             "ClosedStatusBugCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__Bugclosed.md",
             "ClosedStatusOptimizationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E4%BC%98%E5%8C%96closed.md",
             "ClosedStatusFeatureCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E6%96%B0%E5%8A%9F%E8%83%BDclosed.md",
@@ -59,6 +66,10 @@ jobs:
             "ClosedStatusIgnoredCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E5%BF%BD%E7%95%A5.md",
             "ClosedStatusCommunityHelpCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%B8%AE%E5%8A%A9closed.md",
             "ClosedStatusCommunityReproductionCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%A4%8D%E7%8E%B0closed.md"
+            "ClosedStatusThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AC%AC%E4%B8%89%E6%96%B9closed.md"
+            "ClosedStatusNoPlanCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E6%9A%82%E6%97%A0%E8%AE%A1%E5%88%92closed.md"
+            "ClosedStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85closed.md"
+            "ClosedStatusExperimentalCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/__%E5%B0%9D%E9%B2%9C%E7%89%B9%E6%80%A7closed.md"
           }
       run: |
         echo "$DATA_MAPPING" > data_mapping.json

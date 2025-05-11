@@ -14,8 +14,7 @@
         <Setter Property="ContentTemplate">
             <Setter.Value>
                 <DataTemplate>
-                    <TextBlock Text="{Binding}" FontSize="22" FontWeight="SemiBold"
-                               Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    <TextBlock Text="{Binding}" FontSize="22" FontWeight="SemiBold" Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" />
                 </DataTemplate>
             </Setter.Value>
         </Setter>
@@ -66,6 +65,7 @@
         </StackPanel>
     </StackPanel>
 </local:MyCard>
+
 <local:MyCard Title="所有状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
@@ -91,6 +91,7 @@
             <WrapPanel>
                 <GroupBox Header="尝鲜特性" Content="{{AllStatusExperimentalCount}}" />
                 <GroupBox Header="第三方" Content="{{AllStatusThirdPartyCount}}" />
+                <GroupBox Header="暂无计划" Content="{{AllStatusNoPlanCount}}" />
                 <GroupBox Header="等待提交者" Content="{{AllStatusAwaitingSubmitterCount}}" />
                 <GroupBox Header="需要社区帮助" Content="{{AllStatusCommunityHelpCount}}" />
                 <GroupBox Header="需要社区复现" Content="{{AllStatusCommunityReproductionCount}}" />
@@ -98,6 +99,7 @@
         </StackPanel>
     </StackPanel>
 </local:MyCard>
+
 <local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
@@ -127,10 +129,15 @@
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="{{ClosedStatusCommunityHelpCount}}" />
                 <GroupBox Header="需要社区复现" Content="{{ClosedStatusCommunityReproductionCount}}" />
+                <GroupBox Header="第三方" Content="{{ClosedStatusThirdPartyCount}}" />
+                <GroupBox Header="暂无计划" Content="{{ClosedStatusNoPlanCount}}" />
+                <GroupBox Header="等待提交者" Content="{{ClosedStatusAwaitingSubmitterCount}}" />
+                <GroupBox Header="尝鲜特性" Content="{{ClosedStatusExperimentalCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
 </local:MyCard>
+
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,20,23,20" Orientation="Horizontal" HorizontalAlignment="Center">
         <local:MyButton 
