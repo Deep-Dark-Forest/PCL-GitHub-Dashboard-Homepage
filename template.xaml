@@ -56,6 +56,12 @@
                 <GroupBox Header="受阻碍" Content="{{OpenStatusBlockedCount}}" />
                 <GroupBox Header="投票中" Content="{{OpenStatusVotingCount}}" />
                 <GroupBox Header="新提交" Content="{{OpenStatusNewSubmissionCount}}" />
+                <GroupBox Header="阻碍者" Content="{{OpenStatusBlockerCount}}" />
+                <GroupBox Header="暂无计划" Content="{{OpenStatusNoPlanCount}}" />
+                <GroupBox Header="第三方" Content="{{OpenStatusThirdPartyCount}}" />
+                <GroupBox Header="等待提交者" Content="{{OpenStatusAwaitingSubmitterCount}}" />
+                <GroupBox Header="需要社区帮助" Content="{{OpenStatusCommunityHelpCount}}" />
+                <GroupBox Header="需要社区复现" Content="{{OpenStatusCommunityReproductionCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -128,7 +134,7 @@
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,20,23,20" Orientation="Horizontal" HorizontalAlignment="Center">
         <local:MyButton 
-            Margin="0,0,10,0" 
+            Margin="0,0,0,10" 
             Width="180" 
             Height="35" 
             Padding="15,0,15,0"
@@ -138,7 +144,7 @@
             ToolTip="从云端获取最新数据（不要频繁点击）"
         />
         <local:MyButton 
-            Margin="0,0,10,0" 
+            Margin="0,0,0,10" 
             Width="180" 
             Height="35" 
             Padding="15,0,15,0"
