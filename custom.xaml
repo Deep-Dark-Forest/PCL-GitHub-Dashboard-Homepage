@@ -83,7 +83,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2540" />
-                <GroupBox Header="优化" Content="1065" />
+                <GroupBox Header="优化" Content="1066" />
                 <GroupBox Header="新功能" Content="720" />
             </WrapPanel>
         </StackPanel>
@@ -107,7 +107,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2472" />
-                <GroupBox Header="优化" Content="1015" />
+                <GroupBox Header="优化" Content="1016" />
                 <GroupBox Header="新功能" Content="678" />
             </WrapPanel>
         </StackPanel>
@@ -121,7 +121,7 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="494" />
-                <GroupBox Header="重复" Content="1310" />
+                <GroupBox Header="重复" Content="1311" />
                 <GroupBox Header="忽略" Content="1339" />
             </WrapPanel>
         </StackPanel>
@@ -141,25 +141,25 @@
 
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,20,23,20" Orientation="Horizontal" HorizontalAlignment="Center">
-        <local:MyButton 
-            Margin="0,0,0,10" 
-            Width="180" 
-            Height="35" 
-            Padding="15,0,15,0"
-            ColorType="Highlight"
-            Text="刷新" 
-            EventType="刷新主页"
-            ToolTip="从云端获取最新数据（不要频繁点击）"
-        />
-        <local:MyButton 
-            Margin="0,0,0,10" 
-            Width="180" 
-            Height="35" 
-            Padding="15,0,15,0"
-            Text="GitHub 仓库" 
-            EventType="打开网页" 
-            EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
-            ToolTip="访问本主页的 GitHub 仓库"
-        />
-    </StackPanel>
-</local:MyCard>
+    <local:MyButton 
+        Margin="0,0,20,10"
+        Width="180" 
+        Height="35" 
+        Padding="15,0,15,0"
+        ColorType="Highlight"
+        Text="刷新" 
+        EventType="刷新主页"
+        ToolTip="从云端获取最新数据（不要频繁点击）"
+    />
+    <local:MyButton 
+        Margin="20,0,0,10"
+        Width="180" 
+        Height="35" 
+        Padding="15,0,15,0"
+        Text="GitHub 仓库" 
+        EventType="打开网页" 
+        EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
+        ToolTip="访问本主页的 GitHub 仓库"
+    />
+</StackPanel>
+
