@@ -161,5 +161,5 @@
         EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
         ToolTip="访问本主页的 GitHub 仓库"
     />
-</StackPanel>
-
+    </StackPanel>
+</local:MyCard>
