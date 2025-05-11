@@ -23,7 +23,7 @@
 </StackPanel.Resources>
 
 <local:MyHint 
-    Text="此主页由 @Deep-Dark-Forest 开发与维护。" 
+    Text="此主页由 @Deep-Dark-Forest 开发与维护。<LineBreak/> 感谢 @Open-KFC 对本主页做出的巨大贡献！" 
     IsWarn="False" 
     Margin="0,0,0,15"
 />
