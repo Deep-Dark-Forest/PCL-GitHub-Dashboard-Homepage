@@ -129,7 +129,7 @@
             <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="9" />
-                <GroupBox Header="需要社区复现" Content="26" />
+                <GroupBox Header="需要社区复现" Content="25" />
                 <GroupBox Header="第三方" Content="136" />
                 <GroupBox Header="暂无计划" Content="38" />
                 <GroupBox Header="等待提交者" Content="31" />
