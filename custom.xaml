@@ -42,7 +42,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="69" />
-                <GroupBox Header="优化" Content="50" />
+                <GroupBox Header="优化" Content="51" />
                 <GroupBox Header="新功能" Content="42" />
             </WrapPanel>
         </StackPanel>
@@ -50,7 +50,7 @@
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="59" />
-                <GroupBox Header="等待确认" Content="0" />
+                <GroupBox Header="等待确认" Content="1" />
                 <GroupBox Header="可合并" Content="43" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="5" />
@@ -83,7 +83,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2545" />
-                <GroupBox Header="优化" Content="1066" />
+                <GroupBox Header="优化" Content="1067" />
                 <GroupBox Header="新功能" Content="722" />
             </WrapPanel>
         </StackPanel>
