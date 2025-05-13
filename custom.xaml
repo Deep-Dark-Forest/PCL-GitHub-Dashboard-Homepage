@@ -50,7 +50,7 @@
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="60" />
-                <GroupBox Header="等待确认" Content="0" />
+                <GroupBox Header="等待确认" Content="1" />
                 <GroupBox Header="可合并" Content="43" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="5" />
@@ -121,7 +121,7 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="493" />
-                <GroupBox Header="重复" Content="1315" />
+                <GroupBox Header="重复" Content="1314" />
                 <GroupBox Header="忽略" Content="1345" />
             </WrapPanel>
         </StackPanel>
