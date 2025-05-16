@@ -95,7 +95,7 @@
                 <GroupBox Header="暂无计划" Content="40" />
                 <GroupBox Header="等待提交者" Content="34" />
                 <GroupBox Header="需要社区帮助" Content="10" />
-                <GroupBox Header="需要社区复现" Content="0" />
+                <GroupBox Header="需要社区复现" Content="26" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
