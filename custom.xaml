@@ -74,7 +74,7 @@
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="59" />
-                <GroupBox Header="优先级中" Content="124" />
+                <GroupBox Header="优先级中" Content="0" />
                 <GroupBox Header="优先级高" Content="75" />
                 <GroupBox Header="优先级极高" Content="32" />
             </WrapPanel>
