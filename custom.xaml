@@ -34,7 +34,7 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="20" />
                 <GroupBox Header="优先级中" Content="31" />
-                <GroupBox Header="优先级高" Content="6" />
+                <GroupBox Header="优先级高" Content="0" />
                 <GroupBox Header="优先级极高" Content="4" />
             </WrapPanel>
         </StackPanel>
@@ -61,7 +61,7 @@
                 <GroupBox Header="第三方" Content="2" />
                 <GroupBox Header="等待提交者" Content="2" />
                 <GroupBox Header="需要社区帮助" Content="1" />
-                <GroupBox Header="需要社区复现" Content="1" />
+                <GroupBox Header="需要社区复现" Content="0" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
