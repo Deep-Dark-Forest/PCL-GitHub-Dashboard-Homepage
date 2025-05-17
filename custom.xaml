@@ -56,7 +56,7 @@
                 <GroupBox Header="受阻碍" Content="5" />
                 <GroupBox Header="投票中" Content="44" />
                 <GroupBox Header="新提交" Content="0" />
-                <GroupBox Header="阻碍者" Content="0" />
+                <GroupBox Header="阻碍者" Content="1" />
                 <GroupBox Header="暂无计划" Content="2" />
                 <GroupBox Header="第三方" Content="2" />
                 <GroupBox Header="等待提交者" Content="2" />
@@ -114,7 +114,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="0" />
+                <GroupBox Header="完成" Content="785" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
