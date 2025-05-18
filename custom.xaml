@@ -49,18 +49,18 @@
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="60" />
+                <GroupBox Header="处理中" Content="0" />
                 <GroupBox Header="等待确认" Content="1" />
                 <GroupBox Header="可合并" Content="45" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="5" />
                 <GroupBox Header="投票中" Content="44" />
                 <GroupBox Header="新提交" Content="2" />
-                <GroupBox Header="阻碍者" Content="1" />
+                <GroupBox Header="阻碍者" Content="0" />
                 <GroupBox Header="暂无计划" Content="2" />
                 <GroupBox Header="第三方" Content="2" />
                 <GroupBox Header="等待提交者" Content="1" />
-                <GroupBox Header="需要社区帮助" Content="1" />
+                <GroupBox Header="需要社区帮助" Content="0" />
                 <GroupBox Header="需要社区复现" Content="1" />
             </WrapPanel>
         </StackPanel>
@@ -129,7 +129,7 @@
             <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="9" />
-                <GroupBox Header="需要社区复现" Content="25" />
+                <GroupBox Header="需要社区复现" Content="0" />
                 <GroupBox Header="第三方" Content="137" />
                 <GroupBox Header="暂无计划" Content="38" />
                 <GroupBox Header="等待提交者" Content="34" />
