@@ -114,14 +114,14 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="785" />
+                <GroupBox Header="完成" Content="784" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="495" />
-                <GroupBox Header="重复" Content="1318" />
+                <GroupBox Header="重复" Content="1319" />
                 <GroupBox Header="忽略" Content="1349" />
             </WrapPanel>
         </StackPanel>
