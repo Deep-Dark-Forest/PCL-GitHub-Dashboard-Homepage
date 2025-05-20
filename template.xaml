@@ -149,7 +149,7 @@
         ColorType="Highlight"
         Text="刷新" 
         EventType="刷新主页"
-        ToolTip="从云端获取最新数据（不要频繁点击）"
+        ToolTip="从云端获取数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
     />
     <local:MyButton 
         Margin="20,0,0,10"
