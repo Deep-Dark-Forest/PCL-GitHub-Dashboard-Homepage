@@ -57,7 +57,7 @@
                 <GroupBox Header="投票中" Content="45" />
                 <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="阻碍者" Content="1" />
-                <GroupBox Header="暂无计划" Content="2" />
+                <GroupBox Header="暂无计划" Content="0" />
                 <GroupBox Header="第三方" Content="2" />
                 <GroupBox Header="等待提交者" Content="1" />
                 <GroupBox Header="需要社区帮助" Content="1" />
