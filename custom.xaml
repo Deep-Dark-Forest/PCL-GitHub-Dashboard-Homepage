@@ -49,7 +49,7 @@
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="0" />
+                <GroupBox Header="处理中" Content="61" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="45" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -76,7 +76,7 @@
                 <GroupBox Header="优先级低" Content="59" />
                 <GroupBox Header="优先级中" Content="123" />
                 <GroupBox Header="优先级高" Content="76" />
-                <GroupBox Header="优先级极高" Content="0" />
+                <GroupBox Header="优先级极高" Content="33" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -122,7 +122,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
                 <GroupBox Header="重复" Content="1326" />
-                <GroupBox Header="忽略" Content="0" />
+                <GroupBox Header="忽略" Content="1351" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
