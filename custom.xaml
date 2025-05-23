@@ -55,7 +55,7 @@
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="5" />
                 <GroupBox Header="投票中" Content="45" />
-                <GroupBox Header="新提交" Content="1" />
+                <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="阻碍者" Content="1" />
                 <GroupBox Header="暂无计划" Content="2" />
                 <GroupBox Header="第三方" Content="2" />
@@ -121,7 +121,7 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
-                <GroupBox Header="重复" Content="1325" />
+                <GroupBox Header="重复" Content="1326" />
                 <GroupBox Header="忽略" Content="1351" />
             </WrapPanel>
         </StackPanel>
