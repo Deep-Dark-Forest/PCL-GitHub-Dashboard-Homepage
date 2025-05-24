@@ -83,7 +83,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2558" />
-                <GroupBox Header="优化" Content="1074" />
+                <GroupBox Header="优化" Content="0" />
                 <GroupBox Header="新功能" Content="731" />
             </WrapPanel>
         </StackPanel>
