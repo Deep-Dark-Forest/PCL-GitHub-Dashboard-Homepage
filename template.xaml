@@ -90,7 +90,6 @@
         <StackPanel>
             <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="尝鲜特性" Content="{{AllStatusExperimentalCount}}" />
                 <GroupBox Header="第三方" Content="{{AllStatusThirdPartyCount}}" />
                 <GroupBox Header="暂无计划" Content="{{AllStatusNoPlanCount}}" />
                 <GroupBox Header="等待提交者" Content="{{AllStatusAwaitingSubmitterCount}}" />
@@ -133,7 +132,6 @@
                 <GroupBox Header="第三方" Content="{{ClosedStatusThirdPartyCount}}" />
                 <GroupBox Header="暂无计划" Content="{{ClosedStatusNoPlanCount}}" />
                 <GroupBox Header="等待提交者" Content="{{ClosedStatusAwaitingSubmitterCount}}" />
-                <GroupBox Header="尝鲜特性" Content="{{ClosedStatusExperimentalCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
