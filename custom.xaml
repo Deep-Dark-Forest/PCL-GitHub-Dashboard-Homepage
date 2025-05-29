@@ -33,7 +33,7 @@
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="21" />
-                <GroupBox Header="优先级中" Content="30" />
+                <GroupBox Header="优先级中" Content="28" />
                 <GroupBox Header="优先级高" Content="0" />
                 <GroupBox Header="优先级极高" Content="0" />
             </WrapPanel>
@@ -42,14 +42,14 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="61" />
-                <GroupBox Header="优化" Content="50" />
+                <GroupBox Header="优化" Content="49" />
                 <GroupBox Header="新功能" Content="44" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="51" />
+                <GroupBox Header="处理中" Content="49" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="40" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -61,7 +61,7 @@
                 <GroupBox Header="第三方" Content="3" />
                 <GroupBox Header="等待提交者" Content="4" />
                 <GroupBox Header="需要社区帮助" Content="1" />
-                <GroupBox Header="需要社区复现" Content="1" />
+                <GroupBox Header="需要社区复现" Content="2" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -74,7 +74,7 @@
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="60" />
-                <GroupBox Header="优先级中" Content="125" />
+                <GroupBox Header="优先级中" Content="124" />
                 <GroupBox Header="优先级高" Content="74" />
                 <GroupBox Header="优先级极高" Content="30" />
             </WrapPanel>
@@ -83,18 +83,18 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2571" />
-                <GroupBox Header="优化" Content="1078" />
+                <GroupBox Header="优化" Content="1079" />
                 <GroupBox Header="新功能" Content="737" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
             <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="第三方" Content="142" />
+                <GroupBox Header="第三方" Content="143" />
                 <GroupBox Header="暂无计划" Content="43" />
                 <GroupBox Header="等待提交者" Content="39" />
                 <GroupBox Header="需要社区帮助" Content="10" />
-                <GroupBox Header="需要社区复现" Content="26" />
+                <GroupBox Header="需要社区复现" Content="27" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -106,14 +106,14 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2510" />
-                <GroupBox Header="优化" Content="1028" />
+                <GroupBox Header="优化" Content="1030" />
                 <GroupBox Header="新功能" Content="693" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="799" />
+                <GroupBox Header="完成" Content="800" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -129,7 +129,7 @@
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="9" />
                 <GroupBox Header="需要社区复现" Content="25" />
-                <GroupBox Header="第三方" Content="139" />
+                <GroupBox Header="第三方" Content="140" />
                 <GroupBox Header="暂无计划" Content="41" />
                 <GroupBox Header="等待提交者" Content="35" />
             </WrapPanel>
