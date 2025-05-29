@@ -82,9 +82,9 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2571" />
-                <GroupBox Header="优化" Content="1079" />
-                <GroupBox Header="新功能" Content="737" />
+                <GroupBox Header="Bug" Content="2567" />
+                <GroupBox Header="优化" Content="1078" />
+                <GroupBox Header="新功能" Content="736" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -105,9 +105,9 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2510" />
-                <GroupBox Header="优化" Content="1030" />
-                <GroupBox Header="新功能" Content="693" />
+                <GroupBox Header="Bug" Content="2506" />
+                <GroupBox Header="优化" Content="1029" />
+                <GroupBox Header="新功能" Content="692" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -119,9 +119,9 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="拒绝/放弃" Content="498" />
-                <GroupBox Header="重复" Content="1333" />
-                <GroupBox Header="忽略" Content="1355" />
+                <GroupBox Header="拒绝/放弃" Content="497" />
+                <GroupBox Header="重复" Content="1329" />
+                <GroupBox Header="忽略" Content="1354" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
