@@ -33,7 +33,7 @@
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="21" />
-                <GroupBox Header="优先级中" Content="28" />
+                <GroupBox Header="优先级中" Content="27" />
                 <GroupBox Header="优先级高" Content="0" />
                 <GroupBox Header="优先级极高" Content="0" />
             </WrapPanel>
@@ -42,14 +42,14 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="61" />
-                <GroupBox Header="优化" Content="49" />
+                <GroupBox Header="优化" Content="48" />
                 <GroupBox Header="新功能" Content="44" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="49" />
+                <GroupBox Header="处理中" Content="48" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="40" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -106,21 +106,21 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2506" />
-                <GroupBox Header="优化" Content="1029" />
+                <GroupBox Header="优化" Content="1030" />
                 <GroupBox Header="新功能" Content="692" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="800" />
+                <GroupBox Header="完成" Content="802" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
-                <GroupBox Header="重复" Content="1329" />
+                <GroupBox Header="重复" Content="1328" />
                 <GroupBox Header="忽略" Content="1354" />
             </WrapPanel>
         </StackPanel>
