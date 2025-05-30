@@ -33,7 +33,7 @@
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="17" />
-                <GroupBox Header="优先级中" Content="23" />
+                <GroupBox Header="优先级中" Content="22" />
                 <GroupBox Header="优先级高" Content="0" />
                 <GroupBox Header="优先级极高" Content="0" />
             </WrapPanel>
@@ -41,7 +41,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="58" />
+                <GroupBox Header="Bug" Content="57" />
                 <GroupBox Header="优化" Content="48" />
                 <GroupBox Header="新功能" Content="43" />
             </WrapPanel>
@@ -49,7 +49,7 @@
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="40" />
+                <GroupBox Header="处理中" Content="39" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="39" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -105,7 +105,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2510" />
+                <GroupBox Header="Bug" Content="2511" />
                 <GroupBox Header="优化" Content="1030" />
                 <GroupBox Header="新功能" Content="693" />
             </WrapPanel>
@@ -113,7 +113,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="804" />
+                <GroupBox Header="完成" Content="805" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
