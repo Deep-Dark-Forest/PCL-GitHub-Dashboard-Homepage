@@ -30,15 +30,6 @@
 <local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
-            <WrapPanel>
-                <GroupBox Header="优先级低" Content="{{OpenStatusPriorityLow}}" />
-                <GroupBox Header="优先级中" Content="{{OpenStatusPriorityMedium}}" />
-                <GroupBox Header="优先级高" Content="{{OpenStatusPriorityHigh}}" />
-                <GroupBox Header="优先级极高" Content="{{OpenStatusPriorityCritical}}" />
-            </WrapPanel>
-        </StackPanel>
-        <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="{{OpenStatusBugCount}}" />
@@ -70,15 +61,6 @@
 <local:MyCard Title="所有状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
-        <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
-            <WrapPanel>
-                <GroupBox Header="优先级低" Content="{{AllStatusPriorityLow}}" />
-                <GroupBox Header="优先级中" Content="{{AllStatusPriorityMedium}}" />
-                <GroupBox Header="优先级高" Content="{{AllStatusPriorityHigh}}" />
-                <GroupBox Header="优先级极高" Content="{{AllStatusPriorityCritical}}" />
-            </WrapPanel>
-        </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
