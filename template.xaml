@@ -27,6 +27,21 @@
     IsWarn="False" 
     Margin="0,0,0,15"
 />
+
+<local:MyCard Title="开启状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel>
+            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优先级低" Content="{{OpenStatusLowPriorityCount}}" />
+                <GroupBox Header="优先级中" Content="{{OpenStatusMediumPriorityCount}}" />
+                <GroupBox Header="优先级高" Content="{{OpenStatusHighPriorityCount}}" />
+                <GroupBox Header="优先级极高" Content="{{OpenStatusHighestPriorityCount}}" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
@@ -53,6 +68,20 @@
                 <GroupBox Header="等待提交者" Content="{{OpenStatusAwaitingSubmitterCount}}" />
                 <GroupBox Header="需要社区帮助" Content="{{OpenStatusCommunityHelpCount}}" />
                 <GroupBox Header="需要社区复现" Content="{{OpenStatusCommunityReproductionCount}}" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="所有状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel>
+            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优先级低" Content="{{AllStatusLowPriorityCount}}" />
+                <GroupBox Header="优先级中" Content="{{AllStatusMediumPriorityCount}}" />
+                <GroupBox Header="优先级高" Content="{{AllStatusHighPriorityCount}}" />
+                <GroupBox Header="优先级极高" Content="{{AllStatusHighestPriorityCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
