@@ -33,10 +33,10 @@
         <StackPanel>
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优先级低" Content="{{OpenStatusLowPriorityCount}}" />
-                <GroupBox Header="优先级中" Content="{{OpenStatusMediumPriorityCount}}" />
-                <GroupBox Header="优先级高" Content="{{OpenStatusHighPriorityCount}}" />
-                <GroupBox Header="优先级极高" Content="{{OpenStatusHighestPriorityCount}}" />
+                <GroupBox Header="优先级低" Content="0" />
+                <GroupBox Header="优先级中" Content="0" />
+                <GroupBox Header="优先级高" Content="0" />
+                <GroupBox Header="优先级极高" Content="0" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -78,10 +78,10 @@
         <StackPanel>
             <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优先级低" Content="{{AllStatusLowPriorityCount}}" />
-                <GroupBox Header="优先级中" Content="{{AllStatusMediumPriorityCount}}" />
-                <GroupBox Header="优先级高" Content="{{AllStatusHighPriorityCount}}" />
-                <GroupBox Header="优先级极高" Content="{{AllStatusHighestPriorityCount}}" />
+                <GroupBox Header="优先级低" Content="0" />
+                <GroupBox Header="优先级中" Content="0" />
+                <GroupBox Header="优先级高" Content="0" />
+                <GroupBox Header="优先级极高" Content="0" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
