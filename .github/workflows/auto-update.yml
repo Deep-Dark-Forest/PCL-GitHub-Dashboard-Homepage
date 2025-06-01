@@ -22,6 +22,14 @@ jobs:
       env:
         DATA_MAPPING: |
           {
+            "OpenStatusLowPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E4%BD%8Eopen.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E4%BD%8EPR-open.md",
+            "OpenStatusMediumPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E4%B8%ADopen.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E4%B8%ADPR-open.md",
+            "OpenStatusHighPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E9%AB%98open.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E9%AB%98PR-open.md",
+            "OpenStatusHighestPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E6%9E%81%E9%AB%98open.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E6%9E%81%E9%AB%98PR-open.md",
+            "AllStatusLowPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E4%BD%8E.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E4%BD%8EPR.md",
+            "AllStatusMediumPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E4%B8%AD.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E4%B8%ADPR.md",
+            "AllStatusHighPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E9%AB%98.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E9%AB%98PR.md",
+            "AllStatusHighestPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E6%9E%81%E9%AB%98.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E6%9E%81%E9%AB%98PR.md",
             "AllStatusBugCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/__Bug.md",
             "AllStatusOptimizationCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/__%E4%BC%98%E5%8C%96.md",
             "AllStatusFeatureCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/__%E6%96%B0%E5%8A%9F%E8%83%BD.md",
