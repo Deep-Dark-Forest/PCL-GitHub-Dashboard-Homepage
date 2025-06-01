@@ -8,15 +8,28 @@ def load_template():
 
 def fetch_data(url):
     try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        return response.text.strip()
+        if ';' in url:
+            urls = url.split(';')
+            total = 0
+            for u in urls:
+                response = requests.get(u, timeout=10)
+                response.raise_for_status()
+                value = response.text.strip()
+                try:
+                    total += int(value)
+                except ValueError:
+                    print(f"Warning: Non-integer value '{value}' from {u}, using 0")
+            return str(total)
+        else:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            return response.text.strip()
     except Exception as e:
         print(f"Error fetching {url}: {str(e)}")
         return "0"
 
 def generate_xaml():
-    with open("data_mapping.json") as f:
+    with open("data_mapping.json", encoding="utf-8") as f:
         mappings = json.load(f)
     
     data = {}
