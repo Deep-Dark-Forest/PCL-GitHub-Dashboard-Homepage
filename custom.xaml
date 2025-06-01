@@ -140,7 +140,7 @@
                 <GroupBox Header="需要社区复现" Content="25" />
                 <GroupBox Header="第三方" Content="142" />
                 <GroupBox Header="暂无计划" Content="41" />
-                <GroupBox Header="等待提交者" Content="0" />
+                <GroupBox Header="等待提交者" Content="35" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
