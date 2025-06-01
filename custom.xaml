@@ -48,7 +48,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="57" />
                 <GroupBox Header="优化" Content="49" />
-                <GroupBox Header="新功能" Content="43" />
+                <GroupBox Header="新功能" Content="44" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -60,7 +60,7 @@
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="6" />
                 <GroupBox Header="投票中" Content="47" />
-                <GroupBox Header="新提交" Content="0" />
+                <GroupBox Header="新提交" Content="1" />
                 <GroupBox Header="阻碍者" Content="0" />
                 <GroupBox Header="暂无计划" Content="3" />
                 <GroupBox Header="第三方" Content="3" />
@@ -93,7 +93,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2575" />
                 <GroupBox Header="优化" Content="1079" />
-                <GroupBox Header="新功能" Content="737" />
+                <GroupBox Header="新功能" Content="738" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
