@@ -31,7 +31,6 @@
 <local:MyCard Title="开启状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
-            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="{{OpenStatusLowPriorityCount}}" />
                 <GroupBox Header="优先级中" Content="{{OpenStatusMediumPriorityCount}}" />
@@ -76,7 +75,6 @@
 <local:MyCard Title="所有状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
-            <TextBlock Text="优先级" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="{{AllStatusLowPriorityCount}}" />
                 <GroupBox Header="优先级中" Content="{{AllStatusMediumPriorityCount}}" />
