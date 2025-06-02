@@ -36,6 +36,7 @@
                 <GroupBox Header="优先级中" Content="30" />
                 <GroupBox Header="优先级高" Content="1" />
                 <GroupBox Header="优先级极高" Content="3" />
+                <GroupBox Header="小更改" Content="{{OpenStatusSmallChangesCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -80,6 +81,7 @@
                 <GroupBox Header="优先级中" Content="171" />
                 <GroupBox Header="优先级高" Content="105" />
                 <GroupBox Header="优先级极高" Content="39" />
+                <GroupBox Header="小更改" Content="{{AllStatusSmallChangesCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
