@@ -23,6 +23,8 @@ jobs:
         DATA_MAPPING: |
           {
             "OpenStatusLowPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E4%BD%8Eopen.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E4%BD%8EPR-open.md",
+            "OpenStatusSmallChanges":
+"https://raw.githubusercontent.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/refs/heads/main/data/PR/_�_小更改PR-open.md;https://raw.githubusercontent.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/refs/heads/main/data/issue/_�_小更改open.md",
             "OpenStatusMediumPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E4%B8%ADopen.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E4%B8%ADPR-open.md",
             "OpenStatusHighPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E9%AB%98open.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E9%AB%98PR-open.md",
             "OpenStatusHighestPriorityCount": "https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/___%E6%9E%81%E9%AB%98open.md;https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/___%E6%9E%81%E9%AB%98PR-open.md",
