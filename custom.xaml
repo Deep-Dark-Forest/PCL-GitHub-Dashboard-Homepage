@@ -47,7 +47,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="61" />
+                <GroupBox Header="Bug" Content="60" />
                 <GroupBox Header="优化" Content="48" />
                 <GroupBox Header="新功能" Content="45" />
             </WrapPanel>
@@ -65,7 +65,7 @@
                 <GroupBox Header="阻碍者" Content="0" />
                 <GroupBox Header="暂无计划" Content="3" />
                 <GroupBox Header="第三方" Content="3" />
-                <GroupBox Header="等待提交者" Content="5" />
+                <GroupBox Header="等待提交者" Content="4" />
                 <GroupBox Header="需要社区帮助" Content="2" />
                 <GroupBox Header="需要社区复现" Content="2" />
             </WrapPanel>
@@ -103,7 +103,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="145" />
                 <GroupBox Header="暂无计划" Content="47" />
-                <GroupBox Header="等待提交者" Content="41" />
+                <GroupBox Header="等待提交者" Content="40" />
                 <GroupBox Header="需要社区帮助" Content="11" />
                 <GroupBox Header="需要社区复现" Content="27" />
             </WrapPanel>
@@ -116,7 +116,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2532" />
+                <GroupBox Header="Bug" Content="2533" />
                 <GroupBox Header="优化" Content="1034" />
                 <GroupBox Header="新功能" Content="700" />
             </WrapPanel>
@@ -132,7 +132,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
                 <GroupBox Header="重复" Content="1345" />
-                <GroupBox Header="忽略" Content="1363" />
+                <GroupBox Header="忽略" Content="1364" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
