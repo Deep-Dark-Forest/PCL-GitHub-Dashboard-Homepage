@@ -131,7 +131,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
                 <GroupBox Header="重复" Content="1361" />
-                <GroupBox Header="忽略" Content="1371" />
+                <GroupBox Header="忽略" Content="1372" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
