@@ -36,7 +36,7 @@
                 <GroupBox Header="优先级中" Content="33" />
                 <GroupBox Header="优先级高" Content="3" />
                 <GroupBox Header="优先级极高" Content="3" />
-                <GroupBox Header="小更改" Content="14" />
+                <GroupBox Header="小更改" Content="12" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -47,8 +47,8 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="59" />
-                <GroupBox Header="优化" Content="50" />
+                <GroupBox Header="Bug" Content="58" />
+                <GroupBox Header="优化" Content="49" />
                 <GroupBox Header="新功能" Content="45" />
             </WrapPanel>
         </StackPanel>
@@ -57,7 +57,7 @@
             <WrapPanel>
                 <GroupBox Header="处理中" Content="44" />
                 <GroupBox Header="等待确认" Content="0" />
-                <GroupBox Header="可合并" Content="44" />
+                <GroupBox Header="可合并" Content="42" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="6" />
                 <GroupBox Header="投票中" Content="47" />
@@ -115,15 +115,15 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2575" />
-                <GroupBox Header="优化" Content="1043" />
+                <GroupBox Header="Bug" Content="2576" />
+                <GroupBox Header="优化" Content="1044" />
                 <GroupBox Header="新功能" Content="703" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="813" />
+                <GroupBox Header="完成" Content="815" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
