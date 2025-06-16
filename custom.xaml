@@ -48,7 +48,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="58" />
-                <GroupBox Header="优化" Content="49" />
+                <GroupBox Header="优化" Content="50" />
                 <GroupBox Header="新功能" Content="45" />
             </WrapPanel>
         </StackPanel>
@@ -116,7 +116,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2576" />
-                <GroupBox Header="优化" Content="1044" />
+                <GroupBox Header="优化" Content="1043" />
                 <GroupBox Header="新功能" Content="703" />
             </WrapPanel>
         </StackPanel>
