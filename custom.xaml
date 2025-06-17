@@ -102,7 +102,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="148" />
                 <GroupBox Header="暂无计划" Content="47" />
-                <GroupBox Header="等待提交者" Content="43" />
+                <GroupBox Header="等待提交者" Content="42" />
                 <GroupBox Header="需要社区帮助" Content="10" />
                 <GroupBox Header="需要社区复现" Content="26" />
             </WrapPanel>
@@ -130,7 +130,7 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
-                <GroupBox Header="重复" Content="1374" />
+                <GroupBox Header="重复" Content="1375" />
                 <GroupBox Header="忽略" Content="1380" />
             </WrapPanel>
         </StackPanel>
