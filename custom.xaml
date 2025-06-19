@@ -47,7 +47,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="60" />
+                <GroupBox Header="Bug" Content="59" />
                 <GroupBox Header="优化" Content="51" />
                 <GroupBox Header="新功能" Content="45" />
             </WrapPanel>
@@ -61,10 +61,10 @@
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="受阻碍" Content="6" />
                 <GroupBox Header="投票中" Content="46" />
-                <GroupBox Header="新提交" Content="2" />
+                <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="4" />
                 <GroupBox Header="第三方" Content="3" />
-                <GroupBox Header="等待提交者" Content="1" />
+                <GroupBox Header="等待提交者" Content="2" />
                 <GroupBox Header="需要社区帮助" Content="1" />
                 <GroupBox Header="需要社区复现" Content="3" />
             </WrapPanel>
@@ -102,7 +102,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="148" />
                 <GroupBox Header="暂无计划" Content="48" />
-                <GroupBox Header="等待提交者" Content="42" />
+                <GroupBox Header="等待提交者" Content="43" />
                 <GroupBox Header="需要社区帮助" Content="10" />
                 <GroupBox Header="需要社区复现" Content="26" />
             </WrapPanel>
@@ -115,7 +115,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2578" />
+                <GroupBox Header="Bug" Content="2579" />
                 <GroupBox Header="优化" Content="1043" />
                 <GroupBox Header="新功能" Content="703" />
             </WrapPanel>
@@ -130,7 +130,7 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="497" />
-                <GroupBox Header="重复" Content="1375" />
+                <GroupBox Header="重复" Content="1376" />
                 <GroupBox Header="忽略" Content="1380" />
             </WrapPanel>
         </StackPanel>
