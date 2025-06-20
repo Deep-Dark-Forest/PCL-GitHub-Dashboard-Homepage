@@ -55,9 +55,9 @@
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="50" />
+                <GroupBox Header="处理中" Content="49" />
                 <GroupBox Header="等待确认" Content="0" />
-                <GroupBox Header="可合并" Content="44" />
+                <GroupBox Header="可合并" Content="45" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="6" />
                 <GroupBox Header="投票中" Content="46" />
