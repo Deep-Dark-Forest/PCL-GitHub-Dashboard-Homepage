@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/custom.xaml",
+      "headers": {
+        "Content-Disposition": "attachment; filename=\"custom.xaml\"",
+        "Cache-Control": "no-cache, no-store, must-revalidate"
+      }
+    }
+  ],
+  "cleanUrls": true
+}
