@@ -130,7 +130,7 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="501" />
-                <GroupBox Header="重复" Content="0" />
+                <GroupBox Header="重复" Content="1442" />
                 <GroupBox Header="忽略" Content="1415" />
             </WrapPanel>
         </StackPanel>
