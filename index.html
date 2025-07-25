@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download custom.xaml</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            try {
+                const link = document.createElement('a');
+                link.href = 'custom.xaml';
+                link.download = 'custom.xaml';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                document.getElementById('message').textContent = 'Download started...';
+                setTimeout(() => {
+                    document.getElementById('message').textContent = 'Download complete!';
+                    document.title = "Download Complete";
+                }, 1500);
+            } catch (error) {
+                document.getElementById('message').textContent = 'Error: ' + error.message;
+                document.getElementById('manual-download').style.display = 'block';
+            }
+        });
+    </script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 40px 30px;
+            border-radius: 16px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            margin: 0 0 15px;
+            font-size: 2.2rem;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+        #message {
+            margin: 25px 0;
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #4dff4d;
+            min-height: 1.8rem;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            background: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            margin-top: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .download-btn:hover {
+            background: #005a9e;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+        }
+        #manual-download {
+            display: none;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+        .logo {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 0.8; }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">⬇️</div>
+        <h1>PCL-2 GitHub Dashboard</h1>
+        <p>Configuration File Download</p>
+        <div id="message">Initializing download...</div>
+        
+        <div id="manual-download">
+            <p>If download didn't start automatically:</p>
+            <a href="custom.xaml" class="download-btn" download>Download custom.xaml</a>
+        </div>
+    </div>
+</body>
+</html>
