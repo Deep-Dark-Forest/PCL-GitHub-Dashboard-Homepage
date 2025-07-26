@@ -3,11 +3,11 @@ import { NextResponse } from 'next/server';
 export function middleware(request) {
   const url = request.nextUrl;
   const ua = request.headers.get('user-agent') || '';
-  const referer = request.headers.get('referer') || '';
-
+  const referer = request.headers.get('referer') || request.headers.get('referrer') || '';
+  
   const allowedReferers = [
-    /^https?:\/\/([a-z0-9-]+\.)?pcl2\.server(\/|$)/i,
-    /^https?:\/\/([a-z0-9-]+\.)?pcl2\.open\.server(\/|$)/i
+    /^https?:\/\/([a-zA-Z0-9-]+\.)?pcl2\.server(\/|$)/,
+    /^https?:\/\/([a-zA-Z0-9-]+\.)?pcl2\.open\.server(\/|$)/
   ];
 
   const isUAAllowed = ua.includes('PCL2/');
@@ -24,5 +24,7 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: '/:path*'
+  matcher: [
+    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|css|js)$).*)'
+  ]
 };
