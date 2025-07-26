@@ -148,26 +148,26 @@
 </local:MyCard>
 
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-    <StackPanel Margin="25,20,23,20" Orientation="Horizontal" HorizontalAlignment="Center">
-    <local:MyButton 
-        Margin="0,0,20,10"
-        Width="180" 
-        Height="35" 
-        Padding="15,0,15,0"
-        ColorType="Highlight"
-        Text="刷新" 
-        EventType="刷新主页"
-        ToolTip="从云端获取数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
-    />
-    <local:MyButton 
-        Margin="20,0,0,10"
-        Width="180" 
-        Height="35" 
-        Padding="15,0,15,0"
-        Text="GitHub 仓库" 
-        EventType="打开网页" 
-        EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
-        ToolTip="访问本主页的 GitHub 仓库"
-    />
-    </StackPanel>
+    <WrapPanel Margin="25,20,23,20" HorizontalAlignment="Center">
+        <local:MyButton 
+            Width="180" 
+            Height="35" 
+            Padding="15,0,15,0"
+            ColorType="Highlight"
+            Text="刷新" 
+            EventType="刷新主页"
+            ToolTip="从云端获取数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
+            Margin="0,0,20,10"
+        />
+        <local:MyButton 
+            Width="180" 
+            Height="35" 
+            Padding="15,0,15,0"
+            Text="GitHub 仓库" 
+            EventType="打开网页" 
+            EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
+            ToolTip="访问本主页的 GitHub 仓库"
+            Margin="20,0,0,10"
+        />
+    </WrapPanel>
 </local:MyCard>
