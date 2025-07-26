@@ -7,7 +7,7 @@
         <Setter Property="HeaderTemplate">
             <Setter.Value>
                 <DataTemplate>
-                    <TextBlock Text="{Binding}" FontSize="12" Foreground="#CC000000" />
+                    <TextBlock Text="{Binding}" FontSize="12" Foreground="{DynamicResource ColorBrush4}" />
                 </DataTemplate>
             </Setter.Value>
         </Setter>
@@ -15,7 +15,7 @@
             <Setter.Value>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" FontSize="22" FontWeight="SemiBold"
-                               Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                               Foreground="{DynamicResource ColorBrush8}" HorizontalAlignment="Center" VerticalAlignment="Center" />
                 </DataTemplate>
             </Setter.Value>
         </Setter>
@@ -45,7 +45,7 @@
 <local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="62" />
                 <GroupBox Header="优化" Content="56" />
@@ -53,7 +53,7 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="进行中" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="54" />
                 <GroupBox Header="等待确认" Content="0" />
@@ -90,7 +90,7 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2744" />
                 <GroupBox Header="优化" Content="1145" />
@@ -98,7 +98,7 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="159" />
                 <GroupBox Header="暂无计划" Content="55" />
@@ -113,7 +113,7 @@
 <local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2682" />
                 <GroupBox Header="优化" Content="1089" />
@@ -121,13 +121,13 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="完成" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="完成" Content="845" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="无效" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="501" />
                 <GroupBox Header="重复" Content="1442" />
@@ -135,7 +135,7 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" Foreground="{DynamicResource ColorBrush4}" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="8" />
                 <GroupBox Header="需要社区复现" Content="28" />
