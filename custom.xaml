@@ -92,7 +92,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2747" />
+                <GroupBox Header="Bug" Content="2748" />
                 <GroupBox Header="优化" Content="1144" />
                 <GroupBox Header="新功能" Content="778" />
             </WrapPanel>
@@ -115,7 +115,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2683" />
+                <GroupBox Header="Bug" Content="2684" />
                 <GroupBox Header="优化" Content="1090" />
                 <GroupBox Header="新功能" Content="725" />
             </WrapPanel>
@@ -131,7 +131,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="501" />
                 <GroupBox Header="重复" Content="1442" />
-                <GroupBox Header="忽略" Content="1418" />
+                <GroupBox Header="忽略" Content="1419" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
