@@ -148,38 +148,43 @@
 </local:MyCard>
 
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-    <Grid Margin="25,20,23,20">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        
-        <local:MyButton 
-            Grid.Column="1"
-            Margin="0,0,10,0"
-            MinWidth="180" 
-            Height="35" 
-            Padding="15,0,15,0"
-            ColorType="Highlight"
-            Text="刷新" 
-            EventType="刷新主页"
-            ToolTip="从云端获取数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
-            HorizontalAlignment="Center"
-        />
-        
-        <local:MyButton 
-            Grid.Column="2"
-            Margin="10,0,0,0"
-            MinWidth="180" 
-            Height="35" 
-            Padding="15,0,15,0"
-            Text="GitHub 仓库" 
-            EventType="打开网页" 
-            EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
-            ToolTip="访问本主页的 GitHub 仓库"
-            HorizontalAlignment="Center"
-        />
-    </Grid>
+    <StackPanel Margin="25,20,23,20" HorizontalAlignment="Center">
+        <!-- 使用自适应布局容器 -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <local:MyButton 
+                Grid.Column="0" Grid.Row="0"
+                Margin="0,0,10,10"
+                MinWidth="180" 
+                Height="35" 
+                Padding="15,0,15,0"
+                ColorType="Highlight"
+                Text="刷新" 
+                EventType="刷新主页"
+                ToolTip="从云端获取数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
+                HorizontalAlignment="Stretch"
+            />
+            
+            <local:MyButton 
+                Grid.Column="1" Grid.Row="0"
+                Margin="10,0,0,10"
+                MinWidth="180" 
+                Height="35" 
+                Padding="15,0,15,0"
+                Text="GitHub 仓库" 
+                EventType="打开网页" 
+                EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
+                ToolTip="访问本主页的 GitHub 仓库"
+                HorizontalAlignment="Stretch"
+            />
+        </Grid>
+    </StackPanel>
 </local:MyCard>
