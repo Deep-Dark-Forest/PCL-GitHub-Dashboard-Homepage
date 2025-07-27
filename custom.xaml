@@ -35,7 +35,7 @@
                 <GroupBox Header="优先级低" Content="41" />
                 <GroupBox Header="优先级中" Content="39" />
                 <GroupBox Header="优先级高" Content="6" />
-                <GroupBox Header="优先级极高" Content="0" />
+                <GroupBox Header="优先级极高" Content="1" />
                 <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
@@ -48,7 +48,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="64" />
-                <GroupBox Header="优化" Content="54" />
+                <GroupBox Header="优化" Content="55" />
                 <GroupBox Header="新功能" Content="53" />
             </WrapPanel>
         </StackPanel>
@@ -61,7 +61,7 @@
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="受阻碍" Content="7" />
                 <GroupBox Header="投票中" Content="53" />
-                <GroupBox Header="新提交" Content="0" />
+                <GroupBox Header="新提交" Content="1" />
                 <GroupBox Header="暂无计划" Content="4" />
                 <GroupBox Header="第三方" Content="1" />
                 <GroupBox Header="等待提交者" Content="6" />
@@ -93,7 +93,7 @@
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2754" />
-                <GroupBox Header="优化" Content="1146" />
+                <GroupBox Header="优化" Content="1147" />
                 <GroupBox Header="新功能" Content="779" />
             </WrapPanel>
         </StackPanel>
