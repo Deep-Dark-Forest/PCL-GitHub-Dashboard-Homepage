@@ -77,7 +77,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="90" />
-                <GroupBox Header="优先级中" Content="0" />
+                <GroupBox Header="优先级中" Content="181" />
                 <GroupBox Header="优先级高" Content="118" />
                 <GroupBox Header="优先级极高" Content="45" />
                 <GroupBox Header="小更改" Content="28" />
