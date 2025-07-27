@@ -149,7 +149,6 @@
 
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <WrapPanel Margin="25,20,23,20" HorizontalAlignment="Center">
-        <!-- 修复后的刷新按钮 - 移除了 ColorType 属性 -->
         <local:MyIconButton 
             Width="180" 
             Height="35" 
