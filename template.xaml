@@ -148,7 +148,7 @@
 </local:MyCard>
 
 <local:MyCard Title="操作" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-    <WrapPanel Margin="25,20,23,20" HorizontalAlignment="Center">
+    <StackPanel Margin="25,20,23,20" HorizontalAlignment="Center" Orientation="Horizontal">
         <local:MyIconButton 
             Width="180" 
             Height="35" 
@@ -171,5 +171,5 @@
             ToolTip="访问本主页的 GitHub 仓库"
             Margin="20,0,0,10"
         />
-    </WrapPanel>
+    </StackPanel>
 </local:MyCard>
