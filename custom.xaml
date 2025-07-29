@@ -33,7 +33,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="42" />
-                <GroupBox Header="优先级中" Content="39" />
+                <GroupBox Header="优先级中" Content="0" />
                 <GroupBox Header="优先级高" Content="7" />
                 <GroupBox Header="优先级极高" Content="1" />
                 <GroupBox Header="小更改" Content="4" />
