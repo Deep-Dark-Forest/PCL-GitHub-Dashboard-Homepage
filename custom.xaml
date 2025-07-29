@@ -36,7 +36,7 @@
                 <GroupBox Header="优先级中" Content="39" />
                 <GroupBox Header="优先级高" Content="7" />
                 <GroupBox Header="优先级极高" Content="1" />
-                <GroupBox Header="小更改" Content="2" />
+                <GroupBox Header="小更改" Content="4" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -55,8 +55,8 @@
         <StackPanel>
             <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="57" />
-                <GroupBox Header="等待确认" Content="1" />
+                <GroupBox Header="处理中" Content="58" />
+                <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="42" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="受阻碍" Content="7" />
@@ -80,7 +80,7 @@
                 <GroupBox Header="优先级中" Content="181" />
                 <GroupBox Header="优先级高" Content="119" />
                 <GroupBox Header="优先级极高" Content="45" />
-                <GroupBox Header="小更改" Content="28" />
+                <GroupBox Header="小更改" Content="30" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
