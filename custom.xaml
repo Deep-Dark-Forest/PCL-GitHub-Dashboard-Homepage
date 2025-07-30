@@ -47,7 +47,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="69" />
+                <GroupBox Header="Bug" Content="68" />
                 <GroupBox Header="优化" Content="54" />
                 <GroupBox Header="新功能" Content="53" />
             </WrapPanel>
@@ -64,7 +64,7 @@
                 <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="4" />
                 <GroupBox Header="第三方" Content="1" />
-                <GroupBox Header="等待提交者" Content="8" />
+                <GroupBox Header="等待提交者" Content="7" />
                 <GroupBox Header="需要社区帮助" Content="1" />
                 <GroupBox Header="需要社区复现" Content="1" />
             </WrapPanel>
@@ -92,7 +92,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2765" />
+                <GroupBox Header="Bug" Content="2767" />
                 <GroupBox Header="优化" Content="1147" />
                 <GroupBox Header="新功能" Content="782" />
             </WrapPanel>
@@ -102,7 +102,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="160" />
                 <GroupBox Header="暂无计划" Content="55" />
-                <GroupBox Header="等待提交者" Content="60" />
+                <GroupBox Header="等待提交者" Content="59" />
                 <GroupBox Header="需要社区帮助" Content="9" />
                 <GroupBox Header="需要社区复现" Content="29" />
             </WrapPanel>
@@ -115,7 +115,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2696" />
+                <GroupBox Header="Bug" Content="2699" />
                 <GroupBox Header="优化" Content="1093" />
                 <GroupBox Header="新功能" Content="729" />
             </WrapPanel>
@@ -130,8 +130,8 @@
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝/放弃" Content="501" />
-                <GroupBox Header="重复" Content="1450" />
-                <GroupBox Header="忽略" Content="1427" />
+                <GroupBox Header="重复" Content="1451" />
+                <GroupBox Header="忽略" Content="1429" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
