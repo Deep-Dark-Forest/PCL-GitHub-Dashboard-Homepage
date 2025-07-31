@@ -72,6 +72,31 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="开启状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优化" Content="12" />
+                <GroupBox Header="新功能" Content="28" />
+                <GroupBox Header="Bug" Content="15" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="尝鲜特性" Content="5" />
+                <GroupBox Header="受阻碍" Content="1" />
+                <GroupBox Header="处理中" Content="{{OpenStatusPRInProgressCount}}" />
+                <GroupBox Header="社区处理中" Content="2" />
+                <GroupBox Header="第三方" Content="0" />
+                <GroupBox Header="等待提交者" Content="0" />
+                <GroupBox Header="等待确认" Content="0" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="所有状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
@@ -110,6 +135,28 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="所有状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优化" Content="113" />
+                <GroupBox Header="新功能" Content="58" />
+                <GroupBox Header="Bug" Content="114" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="暂无计划" Content="17" />
+                <GroupBox Header="第三方" Content="1" />
+                <GroupBox Header="等待提交者" Content="0" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
@@ -129,7 +176,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="拒绝/放弃" Content="501" />
+                <GroupBox Header="拒绝 / 放弃" Content="501" />
                 <GroupBox Header="重复" Content="1452" />
                 <GroupBox Header="忽略" Content="1434" />
             </WrapPanel>
@@ -142,6 +189,42 @@
                 <GroupBox Header="第三方" Content="161" />
                 <GroupBox Header="暂无计划" Content="51" />
                 <GroupBox Header="等待提交者" Content="52" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关闭状态 PR 数量统计" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优化" Content="101" />
+                <GroupBox Header="新功能" Content="30" />
+                <GroupBox Header="Bug" Content="99" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="已合并" Content="183" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="已关闭未合并" Content="133" />
+                <GroupBox Header="拒绝 / 放弃" Content="12" />
+                <GroupBox Header="忽略" Content="64" />
+                <GroupBox Header="重复" Content="4" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="第三方" Content="1" />
+                <GroupBox Header="暂无计划" Content="5" />
+                <GroupBox Header="等待提交者" Content="0" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
