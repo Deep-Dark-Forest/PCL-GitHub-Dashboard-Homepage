@@ -69,6 +69,7 @@ jobs:
             "ClosedStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85closed.md",
             "OpenStatusPROptimizationCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E4%BC%98%E5%8C%96PR-open.md",
             "OpenStatusPRFeatureCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E6%96%B0%E5%8A%9F%E8%83%BDPR-open.md",
+            "OpenStatusPRInProgressCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E5%A4%84%E7%90%86%E4%B8%ADPR.md",
             "OpenStatusPRBugCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__BugPR-open.md",
             "OpenStatusPRExperimentalFeatureCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E5%B0%9D%E9%B2%9C%E7%89%B9%E6%80%A7PR.md",
             "OpenStatusPRBlockedCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E5%8F%97%E9%98%BB%E7%A2%8DPR.md",
