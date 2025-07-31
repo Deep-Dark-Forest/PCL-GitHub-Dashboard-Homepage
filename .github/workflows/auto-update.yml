@@ -66,7 +66,33 @@ jobs:
             "ClosedStatusCommunityReproductionCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%A4%8D%E7%8E%B0closed.md",
             "ClosedStatusThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/%E7%AC%AC%E4%B8%89%E6%96%B9closed.md",
             "ClosedStatusNoPlanCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/%E6%9A%82%E6%97%A0%E8%AE%A1%E5%88%92closed.md",
-            "ClosedStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85closed.md"
+            "ClosedStatusAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/issue/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85closed.md",
+            "OpenStatusPROptimizationCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E4%BC%98%E5%8C%96PR-open.md",
+            "OpenStatusPRFeatureCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E6%96%B0%E5%8A%9F%E8%83%BDPR-open.md",
+            "OpenStatusPRBugCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__BugPR-open.md",
+            "OpenStatusPRExperimentalFeatureCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E5%B0%9D%E9%B2%9C%E7%89%B9%E6%80%A7PR.md",
+            "OpenStatusPRBlockedCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E5%8F%97%E9%98%BB%E7%A2%8DPR.md",
+            "OpenStatusPRCommunityInProgressCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%A4%BE%E5%8C%BA%E5%A4%84%E7%90%86%E4%B8%ADPR.md",
+            "OpenStatusPRThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AC%AC%E4%B8%89%E6%96%B9PR-open.md",
+            "OpenStatusPRAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85PR-open.md",
+            "OpenStatusPRAwaitingConfirmationCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AD%89%E5%BE%85%E7%A1%AE%E8%AE%A4PR.md",
+            "AllStatusPROptimizationCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E4%BC%98%E5%8C%96PR.md",
+            "AllStatusPRFeatureCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E6%96%B0%E5%8A%9F%E8%83%BDPR.md",
+            "AllStatusPRBugCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__BugPR.md",
+            "AllStatusPRNoPlanCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E6%9A%82%E6%97%A0%E8%AE%A1%E5%88%92PR.md",
+            "AllStatusPRThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AC%AC%E4%B8%89%E6%96%B9PR.md",
+            "AllStatusPRAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85PR.md",
+            "ClosedStatusPROptimizationCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E4%BC%98%E5%8C%96PR-closed.md",
+            "ClosedStatusPRFeatureCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__%E6%96%B0%E5%8A%9F%E8%83%BDPR-closed.md",
+            "ClosedStatusPRBugCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/__BugPR-closed.md",
+            "ClosedStatusPRMergedCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/PR%E5%B7%B2%E5%90%88%E5%B9%B6.md",
+            "ClosedStatusPRClosedNotMergedCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/PR%E5%B7%B2%E5%85%B3%E9%97%AD%E6%9C%AA%E5%90%88%E5%B9%B6.md",
+            "ClosedStatusPRRejectedCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E6%8B%92%E7%BB%9D___%E6%94%BE%E5%BC%83PR.md",
+            "ClosedStatusPRIgnoredCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E5%BF%BD%E7%95%A5PR.md",
+            "ClosedStatusPRDuplicateCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E9%87%8D%E5%A4%8DPR.md",
+            "ClosedStatusPRThirdPartyCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AC%AC%E4%B8%89%E6%96%B9PR-closed.md",
+            "ClosedStatusPRNoPlanCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E6%9A%82%E6%97%A0%E8%AE%A1%E5%88%92PR-closed.md",
+            "ClosedStatusPRAwaitingSubmitterCount": "https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage-Backend/raw/refs/heads/main/data/PR/%E7%AD%89%E5%BE%85%E6%8F%90%E4%BA%A4%E8%80%85PR-closed.md"
           }
       run: |
         echo "$DATA_MAPPING" > data_mapping.json
@@ -101,4 +127,3 @@ jobs:
           -H "Authorization: token $GITHUB_TOKEN" \
           -H "Accept: application/vnd.github.v3+json" \
           https://api.github.com/repos/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage/actions/workflows/push-to-gitcode.yml/dispatches \
-          -d '{"ref": "main"}'
