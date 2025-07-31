@@ -72,6 +72,31 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="开启状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优化" Content="{{OpenStatusPROptimizationCount}}" />
+                <GroupBox Header="新功能" Content="{{OpenStatusPRFeatureCount}}" />
+                <GroupBox Header="Bug" Content="{{OpenStatusPRBugCount}}" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="尝鲜特性" Content="{{OpenStatusPRExperimentalFeatureCount}}" />
+                <GroupBox Header="受阻碍" Content="{{OpenStatusPRBlockedCount}}" />
+                <GroupBox Header="处理中" Content="{{OpenStatusPRInProgressCount}}" />
+                <GroupBox Header="社区处理中" Content="{{OpenStatusPRCommunityInProgressCount}}" />
+                <GroupBox Header="第三方" Content="{{OpenStatusPRThirdPartyCount}}" />
+                <GroupBox Header="等待提交者" Content="{{OpenStatusPRAwaitingSubmitterCount}}" />
+                <GroupBox Header="等待确认" Content="{{OpenStatusPRAwaitingConfirmationCount}}" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="所有状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
@@ -110,6 +135,28 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="所有状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优化" Content="{{AllStatusPROptimizationCount}}" />
+                <GroupBox Header="新功能" Content="{{AllStatusPRFeatureCount}}" />
+                <GroupBox Header="Bug" Content="{{AllStatusPRBugCount}}" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="暂无计划" Content="{{AllStatusPRNoPlanCount}}" />
+                <GroupBox Header="第三方" Content="{{AllStatusPRThirdPartyCount}}" />
+                <GroupBox Header="等待提交者" Content="{{AllStatusPRAwaitingSubmitterCount}}" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
@@ -129,7 +176,7 @@
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="拒绝/放弃" Content="{{ClosedStatusRejectedCount}}" />
+                <GroupBox Header="拒绝 / 放弃" Content="{{ClosedStatusRejectedCount}}" />
                 <GroupBox Header="重复" Content="{{ClosedStatusDuplicateCount}}" />
                 <GroupBox Header="忽略" Content="{{ClosedStatusIgnoredCount}}" />
             </WrapPanel>
@@ -142,6 +189,42 @@
                 <GroupBox Header="第三方" Content="{{ClosedStatusThirdPartyCount}}" />
                 <GroupBox Header="暂无计划" Content="{{ClosedStatusNoPlanCount}}" />
                 <GroupBox Header="等待提交者" Content="{{ClosedStatusAwaitingSubmitterCount}}" />
+            </WrapPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关闭状态 PR 数量统计" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="优化" Content="{{ClosedStatusPROptimizationCount}}" />
+                <GroupBox Header="新功能" Content="{{ClosedStatusPRFeatureCount}}" />
+                <GroupBox Header="Bug" Content="{{ClosedStatusPRBugCount}}" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="已合并" Content="{{ClosedStatusPRMergedCount}}" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel Margin="0,0,0,15">
+            <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="已关闭未合并" Content="{{ClosedStatusPRClosedNotMergedCount}}" />
+                <GroupBox Header="拒绝 / 放弃" Content="{{ClosedStatusPRRejectedCount}}" />
+                <GroupBox Header="忽略" Content="{{ClosedStatusPRIgnoredCount}}" />
+                <GroupBox Header="重复" Content="{{ClosedStatusPRDuplicateCount}}" />
+            </WrapPanel>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <WrapPanel>
+                <GroupBox Header="第三方" Content="{{ClosedStatusPRThirdPartyCount}}" />
+                <GroupBox Header="暂无计划" Content="{{ClosedStatusPRNoPlanCount}}" />
+                <GroupBox Header="等待提交者" Content="{{ClosedStatusPRAwaitingSubmitterCount}}" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
