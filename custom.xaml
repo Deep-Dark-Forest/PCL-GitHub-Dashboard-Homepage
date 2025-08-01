@@ -7,7 +7,8 @@
         <Setter Property="HeaderTemplate">
             <Setter.Value>
                 <DataTemplate>
-                    <TextBlock Text="{Binding}" FontSize="12" Foreground="#CC000000" />
+                    <TextBlock Text="{Binding}" FontSize="12" 
+                               Foreground="{DynamicResource ColorBrush1}" />
                 </DataTemplate>
             </Setter.Value>
         </Setter>
@@ -15,7 +16,8 @@
             <Setter.Value>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" FontSize="22" FontWeight="SemiBold"
-                               Foreground="#FF333333" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                               Foreground="{DynamicResource ColorBrush1}" 
+                               HorizontalAlignment="Center" VerticalAlignment="Center" />
                 </DataTemplate>
             </Setter.Value>
         </Setter>
@@ -45,7 +47,9 @@
 <local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="71" />
                 <GroupBox Header="优化" Content="54" />
@@ -53,7 +57,9 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="进行中" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="61" />
                 <GroupBox Header="等待确认" Content="0" />
@@ -75,7 +81,9 @@
 <local:MyCard Title="开启状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="PR 类型" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="12" />
                 <GroupBox Header="新功能" Content="28" />
@@ -83,7 +91,9 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="进行中" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="进行中" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="尝鲜特性" Content="5" />
                 <GroupBox Header="受阻碍" Content="1" />
@@ -113,9 +123,12 @@
 
 <local:MyCard Title="所有状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
+        <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" 
+                      IsWarn="False" Margin="0,0,0,10"/>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2777" />
                 <GroupBox Header="优化" Content="1148" />
@@ -123,7 +136,9 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="162" />
                 <GroupBox Header="暂无计划" Content="55" />
@@ -137,9 +152,12 @@
 
 <local:MyCard Title="所有状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" IsWarn="False" Margin="0,0,0,10"/>
+        <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" 
+                      IsWarn="False" Margin="0,0,0,10"/>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="PR 类型" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="113" />
                 <GroupBox Header="新功能" Content="58" />
@@ -147,7 +165,9 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="暂无计划" Content="17" />
                 <GroupBox Header="第三方" Content="1" />
@@ -160,7 +180,9 @@
 <local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="反馈类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="反馈类型" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2706" />
                 <GroupBox Header="优化" Content="1094" />
@@ -168,21 +190,27 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="完成" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="完成" Content="845" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="无效" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="501" />
                 <GroupBox Header="重复" Content="1452" />
-                <GroupBox Header="忽略" Content="0" />
+                <GroupBox Header="忽略" Content="1434" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="8" />
                 <GroupBox Header="需要社区复现" Content="28" />
@@ -197,7 +225,9 @@
 <local:MyCard Title="关闭状态 PR 数量统计" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="PR 类型" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="PR 类型" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="101" />
                 <GroupBox Header="新功能" Content="30" />
@@ -205,13 +235,17 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="完成" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="完成" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="已合并" Content="183" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
-            <TextBlock Text="无效" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="无效" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="已关闭未合并" Content="133" />
                 <GroupBox Header="拒绝 / 放弃" Content="12" />
@@ -220,7 +254,9 @@
             </WrapPanel>
         </StackPanel>
         <StackPanel>
-            <TextBlock Text="其他" FontSize="13" Foreground="#FF333333" Margin="0,0,0,8"/>
+            <TextBlock Text="其他" FontSize="13" 
+                       Foreground="{DynamicResource ColorBrush1}" 
+                       Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="1" />
                 <GroupBox Header="暂无计划" Content="5" />
@@ -236,7 +272,7 @@
             Width="180" 
             Height="35" 
             Padding="15,0,15,0"
-            Logo="M4.207,35.5l2.573-2.574l-0.328-0.353C3.259,29.143,1.5,24.677,1.5,20C1.5,9.799,9.799,1.5,20,1.5 c0.776,0,1.598,0.062,2.5,0.19v4.032C21.661,5.575,20.823,5.5,20,5.5C12.005,5.5,5.5,12.005,5.5,20 c0,3.578,1.337,7.023,3.765,9.701l0.353,0.389l2.883-2.883V35.5H4.207z M20,38.5c-0.776,0-1.598-0.062-2.5-0.19v-4.032c0.839,0.147,1.677,0.222,2.5,0.222 c7.995,0,14.5-6.505,14.5-14.5c0-3.583-1.336-7.03-3.761-9.706l-0.353-0.389L27.5,12.793V4.5h8.293l-2.581,2.582l0.328,0.354 C36.738,10.872,38.5,15.334,38.5,20C38.5,30.201,30.201,38.5,20,38.5z"
+            Logo="M4.207,35.5l2.573-2.574l-0.328-0.353C3.259,29.143,1.5,24.677,1.5,20C1.5,9.799,9.799,1.5,20,1.5 c0.776,0,1.598,0.062,2.5,0.19v4.032C21.661,5.575,20.823,5.5,20,5.5C12.005,5.5,5.5,12.005,5.5,20 c0,3.578,1.337,7.023,3.765,9.701l0.353,0.389l2.883-2.883V35.5H4.207z M20,38.5c-0.776,0-1.598-0.062-2.5-0.19v-4.032c0.839,0.147,1.677,0.222,2.5,0.222 c7.995,0,14.5-6.505,14.5-14.5c0,3.583-1.336,7.03-3.761,9.706l-0.353,0.389L27.5,12.793V4.5h8.293l-2.581,2.582l0.328,0.354 C36.738,10.872,38.5,15.334,38.5,20C38.5,30.201,30.201,38.5,20,38.5z"
             LogoScale="0.8"
             Theme="Color"
             EventType="刷新主页"
@@ -251,7 +287,7 @@
             LogoScale="1"
             Theme="Color"
             EventType="打开网页"
-            EventData="https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage"
+            EventData="https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage"
             ToolTip="访问本主页的 GitHub 仓库"
             Margin="20,0,0,10"
         />
