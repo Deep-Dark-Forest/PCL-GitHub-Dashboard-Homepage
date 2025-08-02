@@ -276,7 +276,7 @@
             LogoScale="0.8"
             Theme="Color"
             EventType="刷新主页"
-            ToolTip="从云端获取数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
+            ToolTip="从云端获取新数据，由于技术限制可能存在 5-30 min 的延迟（不要频繁点击）"
             Margin="0,0,20,10"
         />
         <local:MyIconButton 
