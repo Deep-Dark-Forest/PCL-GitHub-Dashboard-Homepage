@@ -40,7 +40,7 @@ def generate_xaml():
     for key, value in data.items():
         template = template.replace(f"{{{{{key}}}}}", value)
     
-    Path("custom.xaml").write_text(template, encoding="utf-8")
+    Path("Custom.xaml").write_text(template, encoding="utf-8")
     print("XAML generated successfully!")
 
 if __name__ == "__main__":
