@@ -114,7 +114,7 @@ jobs:
         if git diff --quiet custom.xaml; then
           echo "No changes detected"
         else
-          git add custom.xaml
+          git add Custom.xaml
           git commit -m "Auto-update XAML data"
           git push "https://${{ secrets.BOT }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref }}
         fi
