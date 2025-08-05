@@ -6,7 +6,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "custom.xaml",
+      "src": "Custom.xaml",
       "use": "@vercel/static"
     }
   ],
@@ -21,7 +21,7 @@
     {
       "src": "^/custom\\.xaml$",
       "headers": {
-        "Content-Disposition": "attachment; filename=\"custom.xaml\"",
+        "Content-Disposition": "attachment; filename=\"Custom.xaml\"",
         "Cache-Control": "no-cache, no-store, must-revalidate"
       }
     }
