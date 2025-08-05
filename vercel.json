@@ -19,7 +19,7 @@
       }
     },
     {
-      "src": "^/custom\\.xaml$",
+      "src": "^/Custom\\.xaml$",
       "headers": {
         "Content-Disposition": "attachment; filename=\"Custom.xaml\"",
         "Cache-Control": "no-cache, no-store, must-revalidate"
