@@ -111,7 +111,7 @@ jobs:
       run: |
         git config --global user.name "PCL-Community-Bot"
         git config --global user.email "167983016+PCL-Community-Bot@users.noreply.github.com"
-        if git diff --quiet custom.xaml; then
+        if git diff --quiet Custom.xaml; then
           echo "No changes detected"
         else
           git add Custom.xaml
