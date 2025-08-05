@@ -11,7 +11,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # 禁用浅克隆，获取完整历史记录
+        fetch-depth: 0
 
     - name: Configure Git
       run: |
@@ -24,5 +24,7 @@ jobs:
 
     - name: Force push to GitCode
       run: |
-        git fetch gitcode  # 获取远程仓库最新状态
+        git fetch gitcode
         git push --force gitcode HEAD:main
+        git remote add bitbucket git clone https://Deep-Dark-Forest:${{ secrets.BITBUCKET }}@bitbucket.org/deep_dark_forest/pcl-github-dashboard-homepage.git
+        git push --force bitbucket HEAD:main
