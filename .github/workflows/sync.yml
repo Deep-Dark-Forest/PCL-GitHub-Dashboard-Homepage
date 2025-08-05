@@ -1,0 +1,28 @@
+name: Push custom.xaml to GitCode
+
+on:
+  workflow_dispatch:
+
+jobs:
+  push-to-gitcode:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "deepdarkforest@sohu.com"
+        git config --global user.name "Deep-Dark-Forest"
+    - name: Add GitCode remote
+      run: |
+        git remote add gitcode https://Deep-Dark-Forest:${{ secrets.GITCODE }}@gitcode.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage.git
+    - name: Force push to GitCode
+      run: |
+        git fetch gitcode
+        git push --force gitcode HEAD:main
+        git remote add bitbucket git clone https://Deep-Dark-Forest:${{ secrets.BITBUCKET }}@bitbucket.org/deep_dark_forest/pcl-github-dashboard-homepage.git
+        git push --force bitbucket HEAD:main
