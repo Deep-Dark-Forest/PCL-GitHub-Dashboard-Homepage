@@ -30,7 +30,7 @@
     Margin="0,0,0,15"
 />
 
-<local:MyCard Title="开启状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="开启状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
             <WrapPanel>
@@ -44,14 +44,14 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="开启状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" 
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="77" />
+                <GroupBox Header="Bug" Content="78" />
                 <GroupBox Header="优化" Content="58" />
                 <GroupBox Header="新功能" Content="55" />
             </WrapPanel>
@@ -67,7 +67,7 @@
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="7" />
                 <GroupBox Header="投票中" Content="54" />
-                <GroupBox Header="新提交" Content="1" />
+                <GroupBox Header="新提交" Content="2" />
                 <GroupBox Header="暂无计划" Content="4" />
                 <GroupBox Header="第三方" Content="1" />
                 <GroupBox Header="等待提交者" Content="7" />
@@ -78,7 +78,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="开启状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="开启状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="PR 类型" FontSize="13" 
@@ -107,7 +107,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="所有状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="所有状态各优先级 PR 和 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
             <WrapPanel>
@@ -121,7 +121,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="所有状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="所有状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" 
                       IsWarn="False" Margin="0,0,0,10"/>
@@ -130,7 +130,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2802" />
+                <GroupBox Header="Bug" Content="2803" />
                 <GroupBox Header="优化" Content="1154" />
                 <GroupBox Header="新功能" Content="790" />
             </WrapPanel>
@@ -150,7 +150,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="所有状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="所有状态各标签 PR 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Text="为避免重复，仅适用于开启/关闭状态 Issue 的 label，其对应的 Issue 数量不会在此处呈现。" 
                       IsWarn="False" Margin="0,0,0,10"/>
@@ -177,7 +177,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="关闭状态各标签 Issue 数量" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="反馈类型" FontSize="13" 
@@ -222,7 +222,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="关闭状态 PR 数量统计" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="关闭状态 PR 数量统计" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Margin="0,0,0,15">
             <TextBlock Text="PR 类型" FontSize="13" 
