@@ -38,7 +38,7 @@
                 <GroupBox Header="优先级中" Content="40" />
                 <GroupBox Header="优先级高" Content="8" />
                 <GroupBox Header="优先级极高" Content="6" />
-                <GroupBox Header="小更改" Content="9" />
+                <GroupBox Header="小更改" Content="8" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -53,7 +53,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="76" />
                 <GroupBox Header="优化" Content="60" />
-                <GroupBox Header="新功能" Content="56" />
+                <GroupBox Header="新功能" Content="55" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -86,7 +86,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="13" />
-                <GroupBox Header="新功能" Content="28" />
+                <GroupBox Header="新功能" Content="27" />
                 <GroupBox Header="Bug" Content="19" />
             </WrapPanel>
         </StackPanel>
@@ -97,7 +97,7 @@
             <WrapPanel>
                 <GroupBox Header="尝鲜特性" Content="5" />
                 <GroupBox Header="受阻碍" Content="1" />
-                <GroupBox Header="处理中" Content="41" />
+                <GroupBox Header="处理中" Content="40" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="第三方" Content="0" />
                 <GroupBox Header="等待提交者" Content="0" />
@@ -186,7 +186,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2739" />
                 <GroupBox Header="优化" Content="1100" />
-                <GroupBox Header="新功能" Content="736" />
+                <GroupBox Header="新功能" Content="737" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -230,7 +230,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="104" />
-                <GroupBox Header="新功能" Content="31" />
+                <GroupBox Header="新功能" Content="32" />
                 <GroupBox Header="Bug" Content="99" />
             </WrapPanel>
         </StackPanel>
@@ -239,7 +239,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已合并" Content="185" />
+                <GroupBox Header="已合并" Content="186" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
