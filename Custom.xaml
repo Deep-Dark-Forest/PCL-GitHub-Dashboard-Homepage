@@ -36,8 +36,8 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="47" />
                 <GroupBox Header="优先级中" Content="40" />
-                <GroupBox Header="优先级高" Content="9" />
-                <GroupBox Header="优先级极高" Content="0" />
+                <GroupBox Header="优先级高" Content="7" />
+                <GroupBox Header="优先级极高" Content="4" />
                 <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
@@ -141,7 +141,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="163" />
-                <GroupBox Header="暂无计划" Content="56" />
+                <GroupBox Header="暂无计划" Content="0" />
                 <GroupBox Header="等待提交者" Content="64" />
                 <GroupBox Header="需要社区帮助" Content="9" />
                 <GroupBox Header="需要社区复现" Content="33" />
@@ -203,7 +203,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="501" />
-                <GroupBox Header="重复" Content="1466" />
+                <GroupBox Header="重复" Content="0" />
                 <GroupBox Header="忽略" Content="1453" />
             </WrapPanel>
         </StackPanel>
@@ -212,7 +212,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="需要社区帮助" Content="0" />
+                <GroupBox Header="需要社区帮助" Content="8" />
                 <GroupBox Header="需要社区复现" Content="30" />
                 <GroupBox Header="第三方" Content="162" />
                 <GroupBox Header="暂无计划" Content="52" />
@@ -247,7 +247,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已关闭未合并" Content="0" />
+                <GroupBox Header="已关闭未合并" Content="137" />
                 <GroupBox Header="拒绝 / 放弃" Content="12" />
                 <GroupBox Header="忽略" Content="67" />
                 <GroupBox Header="重复" Content="4" />
