@@ -38,7 +38,7 @@
                 <GroupBox Header="优先级中" Content="40" />
                 <GroupBox Header="优先级高" Content="9" />
                 <GroupBox Header="优先级极高" Content="4" />
-                <GroupBox Header="小更改" Content="3" />
+                <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -85,7 +85,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="11" />
+                <GroupBox Header="优化" Content="10" />
                 <GroupBox Header="新功能" Content="27" />
                 <GroupBox Header="Bug" Content="17" />
             </WrapPanel>
@@ -229,7 +229,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="106" />
+                <GroupBox Header="优化" Content="107" />
                 <GroupBox Header="新功能" Content="32" />
                 <GroupBox Header="Bug" Content="101" />
             </WrapPanel>
@@ -239,7 +239,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已合并" Content="190" />
+                <GroupBox Header="已合并" Content="191" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
