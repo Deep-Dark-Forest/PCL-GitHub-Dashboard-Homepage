@@ -34,7 +34,7 @@
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
             <WrapPanel>
-                <GroupBox Header="优先级低" Content="28" />
+                <GroupBox Header="优先级低" Content="47" />
                 <GroupBox Header="优先级中" Content="40" />
                 <GroupBox Header="优先级高" Content="9" />
                 <GroupBox Header="优先级极高" Content="4" />
@@ -113,9 +113,9 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="97" />
                 <GroupBox Header="优先级中" Content="182" />
-                <GroupBox Header="优先级高" Content="86" />
+                <GroupBox Header="优先级高" Content="123" />
                 <GroupBox Header="优先级极高" Content="49" />
-                <GroupBox Header="小更改" Content="32" />
+                <GroupBox Header="小更改" Content="37" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -169,7 +169,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="暂无计划" Content="0" />
+                <GroupBox Header="暂无计划" Content="18" />
                 <GroupBox Header="第三方" Content="1" />
                 <GroupBox Header="等待提交者" Content="0" />
             </WrapPanel>
@@ -247,7 +247,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已关闭未合并" Content="0" />
+                <GroupBox Header="已关闭未合并" Content="137" />
                 <GroupBox Header="拒绝 / 放弃" Content="12" />
                 <GroupBox Header="忽略" Content="67" />
                 <GroupBox Header="重复" Content="4" />
@@ -259,7 +259,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="1" />
-                <GroupBox Header="暂无计划" Content="0" />
+                <GroupBox Header="暂无计划" Content="6" />
                 <GroupBox Header="等待提交者" Content="0" />
             </WrapPanel>
         </StackPanel>
