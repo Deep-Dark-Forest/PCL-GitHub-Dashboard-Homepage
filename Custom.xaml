@@ -35,7 +35,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="47" />
-                <GroupBox Header="优先级中" Content="44" />
+                <GroupBox Header="优先级中" Content="45" />
                 <GroupBox Header="优先级高" Content="10" />
                 <GroupBox Header="优先级极高" Content="4" />
                 <GroupBox Header="小更改" Content="12" />
@@ -51,7 +51,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="87" />
+                <GroupBox Header="Bug" Content="88" />
                 <GroupBox Header="优化" Content="65" />
                 <GroupBox Header="新功能" Content="54" />
             </WrapPanel>
@@ -61,7 +61,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="71" />
+                <GroupBox Header="处理中" Content="72" />
                 <GroupBox Header="等待确认" Content="2" />
                 <GroupBox Header="可合并" Content="52" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -112,7 +112,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="97" />
-                <GroupBox Header="优先级中" Content="186" />
+                <GroupBox Header="优先级中" Content="187" />
                 <GroupBox Header="优先级高" Content="124" />
                 <GroupBox Header="优先级极高" Content="49" />
                 <GroupBox Header="小更改" Content="47" />
@@ -130,7 +130,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2840" />
+                <GroupBox Header="Bug" Content="2841" />
                 <GroupBox Header="优化" Content="1167" />
                 <GroupBox Header="新功能" Content="797" />
             </WrapPanel>
