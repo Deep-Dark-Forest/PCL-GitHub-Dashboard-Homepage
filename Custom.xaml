@@ -144,7 +144,7 @@
                 <GroupBox Header="暂无计划" Content="57" />
                 <GroupBox Header="等待提交者" Content="68" />
                 <GroupBox Header="需要社区帮助" Content="10" />
-                <GroupBox Header="需要社区复现" Content="32" />
+                <GroupBox Header="需要社区复现" Content="31" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -203,7 +203,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="501" />
-                <GroupBox Header="重复" Content="1476" />
+                <GroupBox Header="重复" Content="1477" />
                 <GroupBox Header="忽略" Content="1462" />
             </WrapPanel>
         </StackPanel>
@@ -213,7 +213,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="8" />
-                <GroupBox Header="需要社区复现" Content="29" />
+                <GroupBox Header="需要社区复现" Content="28" />
                 <GroupBox Header="第三方" Content="165" />
                 <GroupBox Header="暂无计划" Content="53" />
                 <GroupBox Header="等待提交者" Content="59" />
