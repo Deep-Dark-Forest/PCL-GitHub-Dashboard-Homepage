@@ -36,8 +36,8 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="56" />
                 <GroupBox Header="优先级中" Content="46" />
-                <GroupBox Header="优先级高" Content="14" />
-                <GroupBox Header="优先级极高" Content="2" />
+                <GroupBox Header="优先级高" Content="0" />
+                <GroupBox Header="优先级极高" Content="0" />
                 <GroupBox Header="小更改" Content="12" />
             </WrapPanel>
         </StackPanel>
@@ -114,7 +114,7 @@
                 <GroupBox Header="优先级低" Content="106" />
                 <GroupBox Header="优先级中" Content="188" />
                 <GroupBox Header="优先级高" Content="130" />
-                <GroupBox Header="优先级极高" Content="49" />
+                <GroupBox Header="优先级极高" Content="0" />
                 <GroupBox Header="小更改" Content="51" />
             </WrapPanel>
         </StackPanel>
@@ -203,8 +203,8 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="501" />
-                <GroupBox Header="重复" Content="1501" />
-                <GroupBox Header="忽略" Content="1480" />
+                <GroupBox Header="重复" Content="0" />
+                <GroupBox Header="忽略" Content="0" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -230,7 +230,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="108" />
-                <GroupBox Header="新功能" Content="33" />
+                <GroupBox Header="新功能" Content="0" />
                 <GroupBox Header="Bug" Content="104" />
             </WrapPanel>
         </StackPanel>
