@@ -36,9 +36,9 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="56" />
                 <GroupBox Header="优先级中" Content="46" />
-                <GroupBox Header="优先级高" Content="12" />
+                <GroupBox Header="优先级高" Content="13" />
                 <GroupBox Header="优先级极高" Content="1" />
-                <GroupBox Header="小更改" Content="4" />
+                <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="83" />
-                <GroupBox Header="优化" Content="67" />
+                <GroupBox Header="优化" Content="66" />
                 <GroupBox Header="新功能" Content="54" />
             </WrapPanel>
         </StackPanel>
@@ -61,9 +61,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="79" />
+                <GroupBox Header="处理中" Content="80" />
                 <GroupBox Header="等待确认" Content="0" />
-                <GroupBox Header="可合并" Content="49" />
+                <GroupBox Header="可合并" Content="47" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="8" />
                 <GroupBox Header="投票中" Content="57" />
@@ -85,7 +85,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="13" />
+                <GroupBox Header="优化" Content="11" />
                 <GroupBox Header="新功能" Content="26" />
                 <GroupBox Header="Bug" Content="20" />
             </WrapPanel>
@@ -97,7 +97,7 @@
             <WrapPanel>
                 <GroupBox Header="尝鲜特性" Content="5" />
                 <GroupBox Header="受阻碍" Content="1" />
-                <GroupBox Header="处理中" Content="40" />
+                <GroupBox Header="处理中" Content="39" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="第三方" Content="0" />
                 <GroupBox Header="等待提交者" Content="0" />
@@ -113,7 +113,7 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="106" />
                 <GroupBox Header="优先级中" Content="188" />
-                <GroupBox Header="优先级高" Content="130" />
+                <GroupBox Header="优先级高" Content="131" />
                 <GroupBox Header="优先级极高" Content="48" />
                 <GroupBox Header="小更改" Content="49" />
             </WrapPanel>
@@ -185,7 +185,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2803" />
-                <GroupBox Header="优化" Content="1126" />
+                <GroupBox Header="优化" Content="1127" />
                 <GroupBox Header="新功能" Content="749" />
             </WrapPanel>
         </StackPanel>
@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="869" />
+                <GroupBox Header="完成" Content="870" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -229,7 +229,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="111" />
+                <GroupBox Header="优化" Content="113" />
                 <GroupBox Header="新功能" Content="33" />
                 <GroupBox Header="Bug" Content="109" />
             </WrapPanel>
@@ -239,7 +239,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已合并" Content="200" />
+                <GroupBox Header="已合并" Content="202" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
