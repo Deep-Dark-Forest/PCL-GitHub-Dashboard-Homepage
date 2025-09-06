@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="84" />
-                <GroupBox Header="优化" Content="66" />
+                <GroupBox Header="优化" Content="65" />
                 <GroupBox Header="新功能" Content="54" />
             </WrapPanel>
         </StackPanel>
@@ -185,7 +185,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="2805" />
-                <GroupBox Header="优化" Content="1130" />
+                <GroupBox Header="优化" Content="1131" />
                 <GroupBox Header="新功能" Content="749" />
             </WrapPanel>
         </StackPanel>
