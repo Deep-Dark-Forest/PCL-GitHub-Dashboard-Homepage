@@ -35,7 +35,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="56" />
-                <GroupBox Header="优先级中" Content="47" />
+                <GroupBox Header="优先级中" Content="44" />
                 <GroupBox Header="优先级高" Content="6" />
                 <GroupBox Header="优先级极高" Content="1" />
                 <GroupBox Header="小更改" Content="0" />
@@ -51,8 +51,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="80" />
-                <GroupBox Header="优化" Content="64" />
+                <GroupBox Header="Bug" Content="78" />
+                <GroupBox Header="优化" Content="63" />
                 <GroupBox Header="新功能" Content="54" />
             </WrapPanel>
         </StackPanel>
@@ -61,7 +61,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="74" />
+                <GroupBox Header="处理中" Content="71" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="44" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -184,8 +184,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2811" />
-                <GroupBox Header="优化" Content="1133" />
+                <GroupBox Header="Bug" Content="2813" />
+                <GroupBox Header="优化" Content="1134" />
                 <GroupBox Header="新功能" Content="749" />
             </WrapPanel>
         </StackPanel>
@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="876" />
+                <GroupBox Header="完成" Content="879" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
