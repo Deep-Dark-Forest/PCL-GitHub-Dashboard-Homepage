@@ -53,7 +53,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="72" />
                 <GroupBox Header="优化" Content="66" />
-                <GroupBox Header="新功能" Content="0" />
+                <GroupBox Header="新功能" Content="55" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
