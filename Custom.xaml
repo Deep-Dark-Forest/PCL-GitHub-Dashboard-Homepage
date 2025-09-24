@@ -216,7 +216,7 @@
                 <GroupBox Header="需要社区复现" Content="31" />
                 <GroupBox Header="第三方" Content="168" />
                 <GroupBox Header="暂无计划" Content="57" />
-                <GroupBox Header="等待提交者" Content="0" />
+                <GroupBox Header="等待提交者" Content="71" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
