@@ -51,7 +51,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="67" />
+                <GroupBox Header="Bug" Content="66" />
                 <GroupBox Header="优化" Content="60" />
                 <GroupBox Header="新功能" Content="53" />
             </WrapPanel>
@@ -70,7 +70,7 @@
                 <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="5" />
                 <GroupBox Header="第三方" Content="1" />
-                <GroupBox Header="等待提交者" Content="2" />
+                <GroupBox Header="等待提交者" Content="1" />
                 <GroupBox Header="需要社区帮助" Content="1" />
                 <GroupBox Header="需要社区复现" Content="2" />
             </WrapPanel>
@@ -140,9 +140,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="第三方" Content="170" />
+                <GroupBox Header="第三方" Content="171" />
                 <GroupBox Header="暂无计划" Content="62" />
-                <GroupBox Header="等待提交者" Content="77" />
+                <GroupBox Header="等待提交者" Content="76" />
                 <GroupBox Header="需要社区帮助" Content="10" />
                 <GroupBox Header="需要社区复现" Content="35" />
             </WrapPanel>
@@ -184,7 +184,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2869" />
+                <GroupBox Header="Bug" Content="2870" />
                 <GroupBox Header="优化" Content="1157" />
                 <GroupBox Header="新功能" Content="758" />
             </WrapPanel>
@@ -214,7 +214,7 @@
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="9" />
                 <GroupBox Header="需要社区复现" Content="33" />
-                <GroupBox Header="第三方" Content="169" />
+                <GroupBox Header="第三方" Content="170" />
                 <GroupBox Header="暂无计划" Content="57" />
                 <GroupBox Header="等待提交者" Content="75" />
             </WrapPanel>
