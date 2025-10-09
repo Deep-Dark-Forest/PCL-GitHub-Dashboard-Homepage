@@ -143,7 +143,7 @@
                 <GroupBox Header="第三方" Content="171" />
                 <GroupBox Header="暂无计划" Content="62" />
                 <GroupBox Header="等待提交者" Content="80" />
-                <GroupBox Header="需要社区帮助" Content="10" />
+                <GroupBox Header="需要社区帮助" Content="0" />
                 <GroupBox Header="需要社区复现" Content="36" />
             </WrapPanel>
         </StackPanel>
@@ -161,7 +161,7 @@
             <WrapPanel>
                 <GroupBox Header="优化" Content="126" />
                 <GroupBox Header="新功能" Content="59" />
-                <GroupBox Header="Bug" Content="0" />
+                <GroupBox Header="Bug" Content="130" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
