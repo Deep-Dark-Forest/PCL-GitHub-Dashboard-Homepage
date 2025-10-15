@@ -101,7 +101,7 @@
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="第三方" Content="0" />
                 <GroupBox Header="等待提交者" Content="1" />
-                <GroupBox Header="等待确认" Content="0" />
+                <GroupBox Header="等待确认" Content="1" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
