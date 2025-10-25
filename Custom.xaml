@@ -36,9 +36,9 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="61" />
                 <GroupBox Header="优先级中" Content="34" />
-                <GroupBox Header="优先级高" Content="2" />
+                <GroupBox Header="优先级高" Content="4" />
                 <GroupBox Header="优先级极高" Content="0" />
-                <GroupBox Header="小更改" Content="1" />
+                <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -51,8 +51,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="69" />
-                <GroupBox Header="优化" Content="64" />
+                <GroupBox Header="Bug" Content="67" />
+                <GroupBox Header="优化" Content="65" />
                 <GroupBox Header="新功能" Content="53" />
             </WrapPanel>
         </StackPanel>
@@ -61,13 +61,13 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="68" />
-                <GroupBox Header="等待确认" Content="1" />
+                <GroupBox Header="处理中" Content="71" />
+                <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="39" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="8" />
                 <GroupBox Header="投票中" Content="56" />
-                <GroupBox Header="新提交" Content="3" />
+                <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="5" />
                 <GroupBox Header="第三方" Content="1" />
                 <GroupBox Header="等待提交者" Content="2" />
@@ -113,9 +113,9 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="111" />
                 <GroupBox Header="优先级中" Content="186" />
-                <GroupBox Header="优先级高" Content="132" />
+                <GroupBox Header="优先级高" Content="134" />
                 <GroupBox Header="优先级极高" Content="51" />
-                <GroupBox Header="小更改" Content="54" />
+                <GroupBox Header="小更改" Content="55" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -130,8 +130,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2962" />
-                <GroupBox Header="优化" Content="1234" />
+                <GroupBox Header="Bug" Content="2961" />
+                <GroupBox Header="优化" Content="1235" />
                 <GroupBox Header="新功能" Content="815" />
             </WrapPanel>
         </StackPanel>
@@ -140,7 +140,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="第三方" Content="175" />
+                <GroupBox Header="第三方" Content="176" />
                 <GroupBox Header="暂无计划" Content="63" />
                 <GroupBox Header="等待提交者" Content="78" />
                 <GroupBox Header="需要社区帮助" Content="10" />
@@ -184,7 +184,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2893" />
+                <GroupBox Header="Bug" Content="2894" />
                 <GroupBox Header="优化" Content="1170" />
                 <GroupBox Header="新功能" Content="762" />
             </WrapPanel>
@@ -214,7 +214,7 @@
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="10" />
                 <GroupBox Header="需要社区复现" Content="37" />
-                <GroupBox Header="第三方" Content="174" />
+                <GroupBox Header="第三方" Content="175" />
                 <GroupBox Header="暂无计划" Content="58" />
                 <GroupBox Header="等待提交者" Content="76" />
             </WrapPanel>
