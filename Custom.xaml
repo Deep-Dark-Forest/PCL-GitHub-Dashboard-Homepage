@@ -35,7 +35,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="61" />
-                <GroupBox Header="优先级中" Content="34" />
+                <GroupBox Header="优先级中" Content="35" />
                 <GroupBox Header="优先级高" Content="5" />
                 <GroupBox Header="优先级极高" Content="0" />
                 <GroupBox Header="小更改" Content="2" />
@@ -97,10 +97,10 @@
             <WrapPanel>
                 <GroupBox Header="尝鲜特性" Content="5" />
                 <GroupBox Header="受阻碍" Content="1" />
-                <GroupBox Header="处理中" Content="30" />
+                <GroupBox Header="处理中" Content="31" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="第三方" Content="0" />
-                <GroupBox Header="等待提交者" Content="2" />
+                <GroupBox Header="等待提交者" Content="1" />
                 <GroupBox Header="等待确认" Content="0" />
             </WrapPanel>
         </StackPanel>
@@ -112,7 +112,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="111" />
-                <GroupBox Header="优先级中" Content="186" />
+                <GroupBox Header="优先级中" Content="187" />
                 <GroupBox Header="优先级高" Content="135" />
                 <GroupBox Header="优先级极高" Content="51" />
                 <GroupBox Header="小更改" Content="55" />
@@ -171,7 +171,7 @@
             <WrapPanel>
                 <GroupBox Header="暂无计划" Content="18" />
                 <GroupBox Header="第三方" Content="1" />
-                <GroupBox Header="等待提交者" Content="2" />
+                <GroupBox Header="等待提交者" Content="1" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
