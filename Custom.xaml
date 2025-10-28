@@ -62,7 +62,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="73" />
-                <GroupBox Header="等待确认" Content="0" />
+                <GroupBox Header="等待确认" Content="1" />
                 <GroupBox Header="可合并" Content="39" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="10" />
@@ -70,7 +70,7 @@
                 <GroupBox Header="新提交" Content="2" />
                 <GroupBox Header="暂无计划" Content="5" />
                 <GroupBox Header="第三方" Content="1" />
-                <GroupBox Header="等待提交者" Content="4" />
+                <GroupBox Header="等待提交者" Content="3" />
                 <GroupBox Header="需要社区帮助" Content="1" />
                 <GroupBox Header="需要社区复现" Content="3" />
             </WrapPanel>
@@ -142,7 +142,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="176" />
                 <GroupBox Header="暂无计划" Content="63" />
-                <GroupBox Header="等待提交者" Content="81" />
+                <GroupBox Header="等待提交者" Content="80" />
                 <GroupBox Header="需要社区帮助" Content="11" />
                 <GroupBox Header="需要社区复现" Content="40" />
             </WrapPanel>
