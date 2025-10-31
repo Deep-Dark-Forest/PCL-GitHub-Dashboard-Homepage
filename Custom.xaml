@@ -212,7 +212,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="需要社区帮助" Content="0" />
+                <GroupBox Header="需要社区帮助" Content="10" />
                 <GroupBox Header="需要社区复现" Content="37" />
                 <GroupBox Header="第三方" Content="177" />
                 <GroupBox Header="暂无计划" Content="59" />
