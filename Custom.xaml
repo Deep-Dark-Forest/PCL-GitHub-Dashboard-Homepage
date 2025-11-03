@@ -203,8 +203,8 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="506" />
-                <GroupBox Header="重复" Content="1541" />
-                <GroupBox Header="忽略" Content="1545" />
+                <GroupBox Header="重复" Content="1542" />
+                <GroupBox Header="忽略" Content="1544" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
