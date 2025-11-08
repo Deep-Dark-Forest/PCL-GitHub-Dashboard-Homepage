@@ -114,7 +114,7 @@
                 <GroupBox Header="优先级低" Content="115" />
                 <GroupBox Header="优先级中" Content="194" />
                 <GroupBox Header="优先级高" Content="140" />
-                <GroupBox Header="优先级极高" Content="52" />
+                <GroupBox Header="优先级极高" Content="0" />
                 <GroupBox Header="小更改" Content="57" />
             </WrapPanel>
         </StackPanel>
