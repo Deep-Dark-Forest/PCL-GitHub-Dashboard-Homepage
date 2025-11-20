@@ -184,9 +184,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="2969" />
+                <GroupBox Header="Bug" Content="0" />
                 <GroupBox Header="优化" Content="1208" />
-                <GroupBox Header="新功能" Content="781" />
+                <GroupBox Header="新功能" Content="0" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
