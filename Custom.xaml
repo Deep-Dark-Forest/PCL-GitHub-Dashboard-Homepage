@@ -113,8 +113,8 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="116" />
                 <GroupBox Header="优先级中" Content="198" />
-                <GroupBox Header="优先级高" Content="143" />
-                <GroupBox Header="优先级极高" Content="56" />
+                <GroupBox Header="优先级高" Content="0" />
+                <GroupBox Header="优先级极高" Content="0" />
                 <GroupBox Header="小更改" Content="61" />
             </WrapPanel>
         </StackPanel>
@@ -203,7 +203,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="507" />
-                <GroupBox Header="重复" Content="1584" />
+                <GroupBox Header="重复" Content="0" />
                 <GroupBox Header="忽略" Content="1589" />
             </WrapPanel>
         </StackPanel>
