@@ -72,7 +72,7 @@
                 <GroupBox Header="第三方" Content="2" />
                 <GroupBox Header="等待提交者" Content="3" />
                 <GroupBox Header="需要社区帮助" Content="1" />
-                <GroupBox Header="需要社区复现" Content="0" />
+                <GroupBox Header="需要社区复现" Content="3" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -95,7 +95,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="尝鲜特性" Content="0" />
+                <GroupBox Header="尝鲜特性" Content="5" />
                 <GroupBox Header="受阻碍" Content="1" />
                 <GroupBox Header="处理中" Content="37" />
                 <GroupBox Header="社区处理中" Content="1" />
@@ -142,7 +142,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="189" />
                 <GroupBox Header="暂无计划" Content="70" />
-                <GroupBox Header="等待提交者" Content="0" />
+                <GroupBox Header="等待提交者" Content="86" />
                 <GroupBox Header="需要社区帮助" Content="12" />
                 <GroupBox Header="需要社区复现" Content="39" />
             </WrapPanel>
@@ -248,7 +248,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="已关闭未合并" Content="226" />
-                <GroupBox Header="拒绝 / 放弃" Content="0" />
+                <GroupBox Header="拒绝 / 放弃" Content="12" />
                 <GroupBox Header="忽略" Content="156" />
                 <GroupBox Header="重复" Content="4" />
             </WrapPanel>
