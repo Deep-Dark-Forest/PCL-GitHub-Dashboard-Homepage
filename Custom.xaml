@@ -61,7 +61,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="0" />
+                <GroupBox Header="处理中" Content="98" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="44" />
                 <GroupBox Header="社区处理中" Content="1" />
@@ -142,7 +142,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="190" />
                 <GroupBox Header="暂无计划" Content="70" />
-                <GroupBox Header="等待提交者" Content="0" />
+                <GroupBox Header="等待提交者" Content="87" />
                 <GroupBox Header="需要社区帮助" Content="12" />
                 <GroupBox Header="需要社区复现" Content="39" />
             </WrapPanel>
