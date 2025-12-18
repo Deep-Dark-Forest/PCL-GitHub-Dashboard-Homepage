@@ -35,7 +35,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="66" />
-                <GroupBox Header="优先级中" Content="45" />
+                <GroupBox Header="优先级中" Content="0" />
                 <GroupBox Header="优先级高" Content="2" />
                 <GroupBox Header="优先级极高" Content="4" />
                 <GroupBox Header="小更改" Content="0" />
@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="82" />
-                <GroupBox Header="优化" Content="73" />
+                <GroupBox Header="优化" Content="0" />
                 <GroupBox Header="新功能" Content="61" />
             </WrapPanel>
         </StackPanel>
