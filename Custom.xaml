@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="88" />
-                <GroupBox Header="优化" Content="76" />
+                <GroupBox Header="优化" Content="75" />
                 <GroupBox Header="新功能" Content="61" />
             </WrapPanel>
         </StackPanel>
@@ -62,7 +62,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="80" />
-                <GroupBox Header="等待确认" Content="1" />
+                <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="42" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="受阻碍" Content="16" />
@@ -141,7 +141,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="201" />
-                <GroupBox Header="暂无计划" Content="79" />
+                <GroupBox Header="暂无计划" Content="80" />
                 <GroupBox Header="等待提交者" Content="97" />
                 <GroupBox Header="需要社区帮助" Content="15" />
                 <GroupBox Header="需要社区复现" Content="39" />
@@ -185,7 +185,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3085" />
-                <GroupBox Header="优化" Content="1259" />
+                <GroupBox Header="优化" Content="1260" />
                 <GroupBox Header="新功能" Content="805" />
             </WrapPanel>
         </StackPanel>
@@ -215,7 +215,7 @@
                 <GroupBox Header="需要社区帮助" Content="11" />
                 <GroupBox Header="需要社区复现" Content="36" />
                 <GroupBox Header="第三方" Content="198" />
-                <GroupBox Header="暂无计划" Content="72" />
+                <GroupBox Header="暂无计划" Content="73" />
                 <GroupBox Header="等待提交者" Content="91" />
             </WrapPanel>
         </StackPanel>
