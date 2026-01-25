@@ -51,8 +51,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="97" />
-                <GroupBox Header="优化" Content="75" />
+                <GroupBox Header="Bug" Content="98" />
+                <GroupBox Header="优化" Content="74" />
                 <GroupBox Header="新功能" Content="62" />
             </WrapPanel>
         </StackPanel>
@@ -130,8 +130,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3227" />
-                <GroupBox Header="优化" Content="1342" />
+                <GroupBox Header="Bug" Content="3228" />
+                <GroupBox Header="优化" Content="1341" />
                 <GroupBox Header="新功能" Content="871" />
             </WrapPanel>
         </StackPanel>
