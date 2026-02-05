@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="99" />
-                <GroupBox Header="优化" Content="78" />
+                <GroupBox Header="优化" Content="79" />
                 <GroupBox Header="新功能" Content="64" />
             </WrapPanel>
         </StackPanel>
@@ -62,7 +62,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="85" />
-                <GroupBox Header="等待确认" Content="0" />
+                <GroupBox Header="等待确认" Content="1" />
                 <GroupBox Header="可合并" Content="41" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="17" />
@@ -131,7 +131,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3273" />
-                <GroupBox Header="优化" Content="1352" />
+                <GroupBox Header="优化" Content="1353" />
                 <GroupBox Header="新功能" Content="877" />
             </WrapPanel>
         </StackPanel>
