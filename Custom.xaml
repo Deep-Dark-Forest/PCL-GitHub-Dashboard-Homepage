@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="0" />
+                <GroupBox Header="完成" Content="966" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
