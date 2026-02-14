@@ -132,7 +132,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3302" />
                 <GroupBox Header="优化" Content="1360" />
-                <GroupBox Header="新功能" Content="880" />
+                <GroupBox Header="新功能" Content="881" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -186,7 +186,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3199" />
                 <GroupBox Header="优化" Content="1282" />
-                <GroupBox Header="新功能" Content="816" />
+                <GroupBox Header="新功能" Content="817" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -204,7 +204,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="511" />
                 <GroupBox Header="重复" Content="1691" />
-                <GroupBox Header="忽略" Content="1697" />
+                <GroupBox Header="忽略" Content="1698" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -230,7 +230,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="125" />
-                <GroupBox Header="新功能" Content="0" />
+                <GroupBox Header="新功能" Content="35" />
                 <GroupBox Header="Bug" Content="124" />
             </WrapPanel>
         </StackPanel>
