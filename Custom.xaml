@@ -132,7 +132,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3332" />
                 <GroupBox Header="优化" Content="1370" />
-                <GroupBox Header="新功能" Content="890" />
+                <GroupBox Header="新功能" Content="0" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
