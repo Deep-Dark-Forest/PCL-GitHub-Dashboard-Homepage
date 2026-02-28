@@ -37,7 +37,7 @@
                 <GroupBox Header="优先级低" Content="64" />
                 <GroupBox Header="优先级中" Content="45" />
                 <GroupBox Header="优先级高" Content="8" />
-                <GroupBox Header="优先级极高" Content="3" />
+                <GroupBox Header="优先级极高" Content="2" />
                 <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
@@ -61,7 +61,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="93" />
+                <GroupBox Header="处理中" Content="92" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="39" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -70,7 +70,7 @@
                 <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="8" />
                 <GroupBox Header="第三方" Content="3" />
-                <GroupBox Header="等待提交者" Content="2" />
+                <GroupBox Header="等待提交者" Content="3" />
                 <GroupBox Header="需要社区帮助" Content="3" />
                 <GroupBox Header="需要社区复现" Content="10" />
             </WrapPanel>
@@ -114,7 +114,7 @@
                 <GroupBox Header="优先级低" Content="126" />
                 <GroupBox Header="优先级中" Content="204" />
                 <GroupBox Header="优先级高" Content="151" />
-                <GroupBox Header="优先级极高" Content="58" />
+                <GroupBox Header="优先级极高" Content="57" />
                 <GroupBox Header="小更改" Content="69" />
             </WrapPanel>
         </StackPanel>
@@ -142,7 +142,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="205" />
                 <GroupBox Header="暂无计划" Content="85" />
-                <GroupBox Header="等待提交者" Content="117" />
+                <GroupBox Header="等待提交者" Content="118" />
                 <GroupBox Header="需要社区帮助" Content="13" />
                 <GroupBox Header="需要社区复现" Content="50" />
             </WrapPanel>
