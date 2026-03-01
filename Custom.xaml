@@ -53,7 +53,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="99" />
                 <GroupBox Header="优化" Content="75" />
-                <GroupBox Header="新功能" Content="65" />
+                <GroupBox Header="新功能" Content="66" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -67,7 +67,7 @@
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="18" />
                 <GroupBox Header="投票中" Content="64" />
-                <GroupBox Header="新提交" Content="0" />
+                <GroupBox Header="新提交" Content="1" />
                 <GroupBox Header="暂无计划" Content="8" />
                 <GroupBox Header="第三方" Content="3" />
                 <GroupBox Header="等待提交者" Content="2" />
@@ -113,7 +113,7 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="126" />
                 <GroupBox Header="优先级中" Content="203" />
-                <GroupBox Header="优先级高" Content="152" />
+                <GroupBox Header="优先级高" Content="0" />
                 <GroupBox Header="优先级极高" Content="57" />
                 <GroupBox Header="小更改" Content="70" />
             </WrapPanel>
@@ -132,7 +132,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3332" />
                 <GroupBox Header="优化" Content="1370" />
-                <GroupBox Header="新功能" Content="890" />
+                <GroupBox Header="新功能" Content="891" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
