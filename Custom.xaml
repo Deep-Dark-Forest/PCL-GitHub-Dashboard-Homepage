@@ -35,10 +35,10 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="63" />
-                <GroupBox Header="优先级中" Content="48" />
+                <GroupBox Header="优先级中" Content="47" />
                 <GroupBox Header="优先级高" Content="10" />
                 <GroupBox Header="优先级极高" Content="0" />
-                <GroupBox Header="小更改" Content="1" />
+                <GroupBox Header="小更改" Content="2" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -112,10 +112,10 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="125" />
-                <GroupBox Header="优先级中" Content="208" />
+                <GroupBox Header="优先级中" Content="207" />
                 <GroupBox Header="优先级高" Content="159" />
                 <GroupBox Header="优先级极高" Content="66" />
-                <GroupBox Header="小更改" Content="78" />
+                <GroupBox Header="小更改" Content="79" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
