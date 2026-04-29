@@ -111,9 +111,9 @@
     <StackPanel Margin="25,40,23,15">
         <StackPanel>
             <WrapPanel>
-                <GroupBox Header="优先级低" Content="108" />
-                <GroupBox Header="优先级中" Content="193" />
-                <GroupBox Header="优先级高" Content="157" />
+                <GroupBox Header="优先级低" Content="111" />
+                <GroupBox Header="优先级中" Content="195" />
+                <GroupBox Header="优先级高" Content="158" />
                 <GroupBox Header="优先级极高" Content="64" />
                 <GroupBox Header="小更改" Content="81" />
             </WrapPanel>
@@ -159,9 +159,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="107" />
-                <GroupBox Header="新功能" Content="36" />
-                <GroupBox Header="Bug" Content="116" />
+                <GroupBox Header="优化" Content="114" />
+                <GroupBox Header="新功能" Content="41" />
+                <GroupBox Header="Bug" Content="122" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -229,9 +229,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="94" />
-                <GroupBox Header="新功能" Content="22" />
-                <GroupBox Header="Bug" Content="105" />
+                <GroupBox Header="优化" Content="101" />
+                <GroupBox Header="新功能" Content="27" />
+                <GroupBox Header="Bug" Content="111" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -239,7 +239,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已合并" Content="172" />
+                <GroupBox Header="已合并" Content="186" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -247,9 +247,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已关闭未合并" Content="205" />
-                <GroupBox Header="拒绝 / 放弃" Content="5" />
-                <GroupBox Header="忽略" Content="153" />
+                <GroupBox Header="已关闭未合并" Content="213" />
+                <GroupBox Header="拒绝 / 放弃" Content="7" />
+                <GroupBox Header="忽略" Content="157" />
                 <GroupBox Header="重复" Content="2" />
             </WrapPanel>
         </StackPanel>
