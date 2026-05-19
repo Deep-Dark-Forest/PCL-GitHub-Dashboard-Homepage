@@ -38,7 +38,7 @@
                 <GroupBox Header="优先级中" Content="47" />
                 <GroupBox Header="优先级高" Content="3" />
                 <GroupBox Header="优先级极高" Content="2" />
-                <GroupBox Header="小更改" Content="4" />
+                <GroupBox Header="小更改" Content="1" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -52,8 +52,8 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="90" />
-                <GroupBox Header="优化" Content="78" />
-                <GroupBox Header="新功能" Content="66" />
+                <GroupBox Header="优化" Content="76" />
+                <GroupBox Header="新功能" Content="65" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -61,7 +61,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="86" />
+                <GroupBox Header="处理中" Content="83" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="40" />
                 <GroupBox Header="社区处理中" Content="0" />
@@ -185,8 +185,8 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3457" />
-                <GroupBox Header="优化" Content="1382" />
-                <GroupBox Header="新功能" Content="854" />
+                <GroupBox Header="优化" Content="1384" />
+                <GroupBox Header="新功能" Content="855" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="1037" />
+                <GroupBox Header="完成" Content="1040" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
