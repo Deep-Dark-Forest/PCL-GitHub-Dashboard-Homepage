@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCL GitHub Dashboard Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 20px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .info-box strong {
+            color: #667eea;
+        }
+    </style>
+    
+    <!-- Vercel Web Analytics -->
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>PCL GitHub Dashboard Homepage</h1>
+        
+        <p>
+            欢迎来到 PCL GitHub 仓库仪表盘自定义主页项目！
+        </p>
+
+        <div class="info-box">
+            <strong>📊 项目介绍</strong>
+            <p style="margin-top: 10px; margin-bottom: 0;">
+                本项目为 Plain Craft Launcher 2 (PCL2) 提供了一个自定义的 GitHub 仓库仪表盘主页。
+                通过动态生成的 XAML 文件，可以在 PCL2 启动器中实时显示项目的 Issue 和 PR 统计信息。
+            </p>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="/Custom.xaml" class="download-btn" download>
+                📥 下载 Custom.xaml
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>
+                此主页由 <a href="https://github.com/Deep-Dark-Forest" target="_blank">@Deep-Dark-Forest</a> 开发与维护
+            </p>
+            <p>
+                感谢 <a href="https://github.com/Open-KFC" target="_blank">@Open-KFC</a> 对本主页做出的巨大贡献！
+            </p>
+            <p style="margin-top: 15px;">
+                <a href="https://github.com/Deep-Dark-Forest/PCL-GitHub-Dashboard-Homepage" target="_blank">
+                    GitHub 仓库
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
