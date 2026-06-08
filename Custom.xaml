@@ -61,9 +61,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="93" />
+                <GroupBox Header="处理中" Content="92" />
                 <GroupBox Header="等待确认" Content="0" />
-                <GroupBox Header="可合并" Content="43" />
+                <GroupBox Header="可合并" Content="44" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="20" />
                 <GroupBox Header="投票中" Content="67" />
@@ -85,7 +85,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="10" />
+                <GroupBox Header="优化" Content="11" />
                 <GroupBox Header="新功能" Content="19" />
                 <GroupBox Header="Bug" Content="14" />
             </WrapPanel>
@@ -97,7 +97,7 @@
             <WrapPanel>
                 <GroupBox Header="尝鲜特性" Content="5" />
                 <GroupBox Header="受阻碍" Content="1" />
-                <GroupBox Header="处理中" Content="27" />
+                <GroupBox Header="处理中" Content="28" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="第三方" Content="0" />
                 <GroupBox Header="等待提交者" Content="1" />
@@ -159,7 +159,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="144" />
+                <GroupBox Header="优化" Content="145" />
                 <GroupBox Header="新功能" Content="59" />
                 <GroupBox Header="Bug" Content="142" />
             </WrapPanel>
@@ -247,10 +247,10 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已关闭未合并" Content="242" />
+                <GroupBox Header="已关闭未合并" Content="243" />
                 <GroupBox Header="拒绝 / 放弃" Content="11" />
                 <GroupBox Header="忽略" Content="168" />
-                <GroupBox Header="重复" Content="4" />
+                <GroupBox Header="重复" Content="5" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
