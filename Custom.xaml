@@ -66,7 +66,7 @@
                 <GroupBox Header="可合并" Content="40" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="21" />
-                <GroupBox Header="投票中" Content="66" />
+                <GroupBox Header="投票中" Content="0" />
                 <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="7" />
                 <GroupBox Header="第三方" Content="4" />
