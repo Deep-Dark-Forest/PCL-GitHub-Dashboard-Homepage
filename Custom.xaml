@@ -130,7 +130,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3620" />
+                <GroupBox Header="Bug" Content="3621" />
                 <GroupBox Header="优化" Content="1493" />
                 <GroupBox Header="新功能" Content="937" />
             </WrapPanel>
@@ -140,7 +140,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="第三方" Content="217" />
+                <GroupBox Header="第三方" Content="218" />
                 <GroupBox Header="暂无计划" Content="100" />
                 <GroupBox Header="等待提交者" Content="142" />
                 <GroupBox Header="需要社区帮助" Content="13" />
@@ -184,7 +184,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3532" />
+                <GroupBox Header="Bug" Content="3533" />
                 <GroupBox Header="优化" Content="1419" />
                 <GroupBox Header="新功能" Content="870" />
             </WrapPanel>
@@ -214,7 +214,7 @@
             <WrapPanel>
                 <GroupBox Header="需要社区帮助" Content="10" />
                 <GroupBox Header="需要社区复现" Content="50" />
-                <GroupBox Header="第三方" Content="213" />
+                <GroupBox Header="第三方" Content="214" />
                 <GroupBox Header="暂无计划" Content="93" />
                 <GroupBox Header="等待提交者" Content="142" />
             </WrapPanel>
