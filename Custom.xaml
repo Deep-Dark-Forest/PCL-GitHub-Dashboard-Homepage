@@ -35,9 +35,9 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="58" />
-                <GroupBox Header="优先级中" Content="0" />
-                <GroupBox Header="优先级高" Content="0" />
-                <GroupBox Header="优先级极高" Content="0" />
+                <GroupBox Header="优先级中" Content="48" />
+                <GroupBox Header="优先级高" Content="4" />
+                <GroupBox Header="优先级极高" Content="1" />
                 <GroupBox Header="小更改" Content="0" />
             </WrapPanel>
         </StackPanel>
@@ -112,7 +112,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="123" />
-                <GroupBox Header="优先级中" Content="206" />
+                <GroupBox Header="优先级中" Content="205" />
                 <GroupBox Header="优先级高" Content="173" />
                 <GroupBox Header="优先级极高" Content="76" />
                 <GroupBox Header="小更改" Content="92" />
@@ -130,9 +130,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3664" />
-                <GroupBox Header="优化" Content="1504" />
-                <GroupBox Header="新功能" Content="943" />
+                <GroupBox Header="Bug" Content="3661" />
+                <GroupBox Header="优化" Content="1501" />
+                <GroupBox Header="新功能" Content="941" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -171,7 +171,7 @@
             <WrapPanel>
                 <GroupBox Header="暂无计划" Content="15" />
                 <GroupBox Header="第三方" Content="3" />
-                <GroupBox Header="等待提交者" Content="4" />
+                <GroupBox Header="等待提交者" Content="0" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -184,9 +184,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3562" />
-                <GroupBox Header="优化" Content="1429" />
-                <GroupBox Header="新功能" Content="875" />
+                <GroupBox Header="Bug" Content="3559" />
+                <GroupBox Header="优化" Content="1426" />
+                <GroupBox Header="新功能" Content="873" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="1072" />
+                <GroupBox Header="完成" Content="1070" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -202,9 +202,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="拒绝 / 放弃" Content="532" />
-                <GroupBox Header="重复" Content="1852" />
-                <GroupBox Header="忽略" Content="1903" />
+                <GroupBox Header="拒绝 / 放弃" Content="531" />
+                <GroupBox Header="重复" Content="1849" />
+                <GroupBox Header="忽略" Content="1901" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -230,7 +230,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="优化" Content="138" />
-                <GroupBox Header="新功能" Content="40" />
+                <GroupBox Header="新功能" Content="0" />
                 <GroupBox Header="Bug" Content="132" />
             </WrapPanel>
         </StackPanel>
@@ -239,7 +239,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已合并" Content="0" />
+                <GroupBox Header="已合并" Content="243" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
