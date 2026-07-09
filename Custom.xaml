@@ -35,7 +35,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="62" />
-                <GroupBox Header="优先级中" Content="50" />
+                <GroupBox Header="优先级中" Content="0" />
                 <GroupBox Header="优先级高" Content="4" />
                 <GroupBox Header="优先级极高" Content="0" />
                 <GroupBox Header="小更改" Content="0" />
@@ -51,8 +51,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="0" />
-                <GroupBox Header="优化" Content="0" />
+                <GroupBox Header="Bug" Content="101" />
+                <GroupBox Header="优化" Content="76" />
                 <GroupBox Header="新功能" Content="69" />
             </WrapPanel>
         </StackPanel>
@@ -61,17 +61,17 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="处理中" Content="0" />
+                <GroupBox Header="处理中" Content="89" />
                 <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="0" />
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="21" />
-                <GroupBox Header="投票中" Content="0" />
-                <GroupBox Header="新提交" Content="3" />
+                <GroupBox Header="投票中" Content="65" />
+                <GroupBox Header="新提交" Content="2" />
                 <GroupBox Header="暂无计划" Content="7" />
-                <GroupBox Header="第三方" Content="0" />
+                <GroupBox Header="第三方" Content="4" />
                 <GroupBox Header="等待提交者" Content="8" />
-                <GroupBox Header="需要社区帮助" Content="0" />
+                <GroupBox Header="需要社区帮助" Content="3" />
                 <GroupBox Header="需要社区复现" Content="6" />
             </WrapPanel>
         </StackPanel>
@@ -87,7 +87,7 @@
             <WrapPanel>
                 <GroupBox Header="优化" Content="10" />
                 <GroupBox Header="新功能" Content="23" />
-                <GroupBox Header="Bug" Content="0" />
+                <GroupBox Header="Bug" Content="15" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -95,11 +95,11 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="尝鲜特性" Content="0" />
-                <GroupBox Header="受阻碍" Content="0" />
-                <GroupBox Header="处理中" Content="0" />
+                <GroupBox Header="尝鲜特性" Content="5" />
+                <GroupBox Header="受阻碍" Content="2" />
+                <GroupBox Header="处理中" Content="27" />
                 <GroupBox Header="社区处理中" Content="1" />
-                <GroupBox Header="第三方" Content="0" />
+                <GroupBox Header="第三方" Content="1" />
                 <GroupBox Header="等待提交者" Content="1" />
                 <GroupBox Header="等待确认" Content="0" />
             </WrapPanel>
@@ -112,7 +112,7 @@
         <StackPanel>
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="127" />
-                <GroupBox Header="优先级中" Content="0" />
+                <GroupBox Header="优先级中" Content="210" />
                 <GroupBox Header="优先级高" Content="176" />
                 <GroupBox Header="优先级极高" Content="76" />
                 <GroupBox Header="小更改" Content="91" />
@@ -130,8 +130,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="0" />
-                <GroupBox Header="优化" Content="0" />
+                <GroupBox Header="Bug" Content="3666" />
+                <GroupBox Header="优化" Content="1506" />
                 <GroupBox Header="新功能" Content="945" />
             </WrapPanel>
         </StackPanel>
@@ -140,11 +140,11 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="第三方" Content="0" />
-                <GroupBox Header="暂无计划" Content="0" />
-                <GroupBox Header="等待提交者" Content="0" />
-                <GroupBox Header="需要社区帮助" Content="0" />
-                <GroupBox Header="需要社区复现" Content="0" />
+                <GroupBox Header="第三方" Content="218" />
+                <GroupBox Header="暂无计划" Content="100" />
+                <GroupBox Header="等待提交者" Content="151" />
+                <GroupBox Header="需要社区帮助" Content="13" />
+                <GroupBox Header="需要社区复现" Content="56" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -159,9 +159,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="0" />
-                <GroupBox Header="新功能" Content="0" />
-                <GroupBox Header="Bug" Content="0" />
+                <GroupBox Header="优化" Content="150" />
+                <GroupBox Header="新功能" Content="63" />
+                <GroupBox Header="Bug" Content="152" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -169,8 +169,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="暂无计划" Content="0" />
-                <GroupBox Header="第三方" Content="0" />
+                <GroupBox Header="暂无计划" Content="18" />
+                <GroupBox Header="第三方" Content="3" />
                 <GroupBox Header="等待提交者" Content="4" />
             </WrapPanel>
         </StackPanel>
@@ -216,7 +216,7 @@
                 <GroupBox Header="需要社区复现" Content="50" />
                 <GroupBox Header="第三方" Content="214" />
                 <GroupBox Header="暂无计划" Content="93" />
-                <GroupBox Header="等待提交者" Content="0" />
+                <GroupBox Header="等待提交者" Content="143" />
             </WrapPanel>
         </StackPanel>
     </StackPanel>
@@ -229,9 +229,9 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="优化" Content="0" />
+                <GroupBox Header="优化" Content="140" />
                 <GroupBox Header="新功能" Content="40" />
-                <GroupBox Header="Bug" Content="0" />
+                <GroupBox Header="Bug" Content="137" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -247,10 +247,10 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="已关闭未合并" Content="221" />
+                <GroupBox Header="已关闭未合并" Content="0" />
                 <GroupBox Header="拒绝 / 放弃" Content="12" />
-                <GroupBox Header="忽略" Content="147" />
-                <GroupBox Header="重复" Content="0" />
+                <GroupBox Header="忽略" Content="0" />
+                <GroupBox Header="重复" Content="5" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -258,8 +258,8 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="第三方" Content="0" />
-                <GroupBox Header="暂无计划" Content="6" />
+                <GroupBox Header="第三方" Content="2" />
+                <GroupBox Header="暂无计划" Content="0" />
                 <GroupBox Header="等待提交者" Content="3" />
             </WrapPanel>
         </StackPanel>
