@@ -113,7 +113,7 @@
             <WrapPanel>
                 <GroupBox Header="优先级低" Content="116" />
                 <GroupBox Header="优先级中" Content="209" />
-                <GroupBox Header="优先级高" Content="182" />
+                <GroupBox Header="优先级高" Content="0" />
                 <GroupBox Header="优先级极高" Content="78" />
                 <GroupBox Header="小更改" Content="94" />
             </WrapPanel>
