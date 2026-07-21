@@ -249,7 +249,7 @@
             <WrapPanel>
                 <GroupBox Header="已关闭未合并" Content="232" />
                 <GroupBox Header="拒绝 / 放弃" Content="12" />
-                <GroupBox Header="忽略" Content="154" />
+                <GroupBox Header="忽略" Content="0" />
                 <GroupBox Header="重复" Content="6" />
             </WrapPanel>
         </StackPanel>
