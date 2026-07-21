@@ -37,7 +37,7 @@
                 <GroupBox Header="优先级低" Content="47" />
                 <GroupBox Header="优先级中" Content="49" />
                 <GroupBox Header="优先级高" Content="11" />
-                <GroupBox Header="优先级极高" Content="0" />
+                <GroupBox Header="优先级极高" Content="2" />
                 <GroupBox Header="小更改" Content="5" />
             </WrapPanel>
         </StackPanel>
@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="1084" />
+                <GroupBox Header="完成" Content="1085" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -204,7 +204,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="537" />
                 <GroupBox Header="重复" Content="1880" />
-                <GroupBox Header="忽略" Content="1936" />
+                <GroupBox Header="忽略" Content="1935" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
