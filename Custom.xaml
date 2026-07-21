@@ -132,7 +132,7 @@
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3716" />
                 <GroupBox Header="优化" Content="1522" />
-                <GroupBox Header="新功能" Content="0" />
+                <GroupBox Header="新功能" Content="953" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
@@ -141,7 +141,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="220" />
-                <GroupBox Header="暂无计划" Content="0" />
+                <GroupBox Header="暂无计划" Content="110" />
                 <GroupBox Header="等待提交者" Content="151" />
                 <GroupBox Header="需要社区帮助" Content="16" />
                 <GroupBox Header="需要社区复现" Content="59" />
