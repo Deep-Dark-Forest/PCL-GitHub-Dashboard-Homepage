@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="83" />
-                <GroupBox Header="优化" Content="66" />
+                <GroupBox Header="优化" Content="65" />
                 <GroupBox Header="新功能" Content="59" />
             </WrapPanel>
         </StackPanel>
@@ -70,7 +70,7 @@
                 <GroupBox Header="新提交" Content="0" />
                 <GroupBox Header="暂无计划" Content="10" />
                 <GroupBox Header="第三方" Content="4" />
-                <GroupBox Header="等待提交者" Content="4" />
+                <GroupBox Header="等待提交者" Content="3" />
                 <GroupBox Header="需要社区帮助" Content="2" />
                 <GroupBox Header="需要社区复现" Content="3" />
             </WrapPanel>
@@ -141,8 +141,8 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="第三方" Content="220" />
-                <GroupBox Header="暂无计划" Content="110" />
-                <GroupBox Header="等待提交者" Content="153" />
+                <GroupBox Header="暂无计划" Content="111" />
+                <GroupBox Header="等待提交者" Content="152" />
                 <GroupBox Header="需要社区帮助" Content="16" />
                 <GroupBox Header="需要社区复现" Content="58" />
             </WrapPanel>
@@ -185,7 +185,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3656" />
-                <GroupBox Header="优化" Content="1461" />
+                <GroupBox Header="优化" Content="1462" />
                 <GroupBox Header="新功能" Content="898" />
             </WrapPanel>
         </StackPanel>
@@ -215,7 +215,7 @@
                 <GroupBox Header="需要社区帮助" Content="14" />
                 <GroupBox Header="需要社区复现" Content="55" />
                 <GroupBox Header="第三方" Content="216" />
-                <GroupBox Header="暂无计划" Content="100" />
+                <GroupBox Header="暂无计划" Content="101" />
                 <GroupBox Header="等待提交者" Content="149" />
             </WrapPanel>
         </StackPanel>
