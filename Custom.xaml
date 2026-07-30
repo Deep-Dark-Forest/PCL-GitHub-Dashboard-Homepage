@@ -52,7 +52,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="79" />
-                <GroupBox Header="优化" Content="63" />
+                <GroupBox Header="优化" Content="62" />
                 <GroupBox Header="新功能" Content="59" />
             </WrapPanel>
         </StackPanel>
@@ -62,7 +62,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="处理中" Content="76" />
-                <GroupBox Header="等待确认" Content="1" />
+                <GroupBox Header="等待确认" Content="0" />
                 <GroupBox Header="可合并" Content="28" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="受阻碍" Content="20" />
@@ -131,7 +131,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3742" />
-                <GroupBox Header="优化" Content="1528" />
+                <GroupBox Header="优化" Content="1529" />
                 <GroupBox Header="新功能" Content="961" />
             </WrapPanel>
         </StackPanel>
@@ -185,7 +185,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3663" />
-                <GroupBox Header="优化" Content="1465" />
+                <GroupBox Header="优化" Content="1467" />
                 <GroupBox Header="新功能" Content="902" />
             </WrapPanel>
         </StackPanel>
@@ -194,7 +194,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="完成" Content="1106" />
+                <GroupBox Header="完成" Content="1107" />
             </WrapPanel>
         </StackPanel>
         <StackPanel Margin="0,0,0,15">
@@ -204,7 +204,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="538" />
                 <GroupBox Header="重复" Content="1903" />
-                <GroupBox Header="忽略" Content="1950" />
+                <GroupBox Header="忽略" Content="1951" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
