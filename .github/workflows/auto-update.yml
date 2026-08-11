@@ -109,12 +109,12 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.name "PCL-Community-Bot"
-        git config --global user.email "167983016+PCL-Community-Bot@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         if git diff --quiet Custom.xaml; then
           echo "No changes detected"
         else
           git add Custom.xaml
           git commit -m "Auto-update XAML data"
-          git push "https://${{ secrets.BOT }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref }}
+          git push "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref }}
         fi
