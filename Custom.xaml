@@ -66,8 +66,8 @@
                 <GroupBox Header="可合并" Content="29" />
                 <GroupBox Header="社区处理中" Content="1" />
                 <GroupBox Header="受阻碍" Content="20" />
-                <GroupBox Header="投票中" Content="54" />
-                <GroupBox Header="新提交" Content="0" />
+                <GroupBox Header="投票中" Content="53" />
+                <GroupBox Header="新提交" Content="1" />
                 <GroupBox Header="暂无计划" Content="10" />
                 <GroupBox Header="第三方" Content="4" />
                 <GroupBox Header="等待提交者" Content="1" />
@@ -131,7 +131,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3796" />
-                <GroupBox Header="优化" Content="1547" />
+                <GroupBox Header="优化" Content="1548" />
                 <GroupBox Header="新功能" Content="974" />
             </WrapPanel>
         </StackPanel>
@@ -185,7 +185,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="Bug" Content="3718" />
-                <GroupBox Header="优化" Content="1482" />
+                <GroupBox Header="优化" Content="1483" />
                 <GroupBox Header="新功能" Content="914" />
             </WrapPanel>
         </StackPanel>
@@ -203,7 +203,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="539" />
-                <GroupBox Header="重复" Content="1938" />
+                <GroupBox Header="重复" Content="1939" />
                 <GroupBox Header="忽略" Content="1971" />
             </WrapPanel>
         </StackPanel>
