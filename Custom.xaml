@@ -67,10 +67,10 @@
                 <GroupBox Header="社区处理中" Content="0" />
                 <GroupBox Header="受阻碍" Content="20" />
                 <GroupBox Header="投票中" Content="52" />
-                <GroupBox Header="新提交" Content="3" />
+                <GroupBox Header="新提交" Content="2" />
                 <GroupBox Header="暂无计划" Content="10" />
                 <GroupBox Header="第三方" Content="4" />
-                <GroupBox Header="等待提交者" Content="2" />
+                <GroupBox Header="等待提交者" Content="3" />
                 <GroupBox Header="需要社区帮助" Content="2" />
                 <GroupBox Header="需要社区复现" Content="1" />
             </WrapPanel>
@@ -130,7 +130,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3899" />
+                <GroupBox Header="Bug" Content="3900" />
                 <GroupBox Header="优化" Content="1584" />
                 <GroupBox Header="新功能" Content="993" />
             </WrapPanel>
@@ -142,7 +142,7 @@
             <WrapPanel>
                 <GroupBox Header="第三方" Content="227" />
                 <GroupBox Header="暂无计划" Content="122" />
-                <GroupBox Header="等待提交者" Content="167" />
+                <GroupBox Header="等待提交者" Content="168" />
                 <GroupBox Header="需要社区帮助" Content="19" />
                 <GroupBox Header="需要社区复现" Content="60" />
             </WrapPanel>
@@ -184,7 +184,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3804" />
+                <GroupBox Header="Bug" Content="3805" />
                 <GroupBox Header="优化" Content="1515" />
                 <GroupBox Header="新功能" Content="935" />
             </WrapPanel>
@@ -203,7 +203,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="543" />
-                <GroupBox Header="重复" Content="1977" />
+                <GroupBox Header="重复" Content="1978" />
                 <GroupBox Header="忽略" Content="2022" />
             </WrapPanel>
         </StackPanel>
