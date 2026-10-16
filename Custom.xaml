@@ -204,7 +204,7 @@
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="543" />
                 <GroupBox Header="重复" Content="1981" />
-                <GroupBox Header="忽略" Content="2024" />
+                <GroupBox Header="忽略" Content="2029" />
             </WrapPanel>
         </StackPanel>
         <StackPanel>
