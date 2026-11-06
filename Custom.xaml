@@ -130,7 +130,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3851" />
+                <GroupBox Header="Bug" Content="3850" />
                 <GroupBox Header="优化" Content="1575" />
                 <GroupBox Header="新功能" Content="977" />
             </WrapPanel>
@@ -184,7 +184,7 @@
                        Foreground="{DynamicResource ColorBrush1}" 
                        Margin="0,0,0,8"/>
             <WrapPanel>
-                <GroupBox Header="Bug" Content="3765" />
+                <GroupBox Header="Bug" Content="3764" />
                 <GroupBox Header="优化" Content="1512" />
                 <GroupBox Header="新功能" Content="922" />
             </WrapPanel>
@@ -203,7 +203,7 @@
                        Margin="0,0,0,8"/>
             <WrapPanel>
                 <GroupBox Header="拒绝 / 放弃" Content="539" />
-                <GroupBox Header="重复" Content="1978" />
+                <GroupBox Header="重复" Content="1977" />
                 <GroupBox Header="忽略" Content="2033" />
             </WrapPanel>
         </StackPanel>
